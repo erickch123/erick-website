@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState,useEffect} from 'react';
+import { Route, Routes, Navigate } from "react-router";
+import HomePage from "./pages/HomePage";
 
 function App() {
+  console.log("app is running")
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Routes>
+      <Route path="/Home" element={<HomePage />} />
+      <Route path="/" element={<Navigate to="/Home" />} />
+      <Route
+            path="*"
+            element={
+              <div>
+                <h2>404 Page not found</h2>
+              </div>
+            }
+          />
+
+      </Routes>
+       */}
+      <h1 className="text-3xl-green font-bold underline">
+        Hello world!
+      </h1>   
+
     </div>
   );
 }
