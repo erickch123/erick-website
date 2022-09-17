@@ -3,6 +3,12 @@ import { Route, Routes, Navigate } from "react-router";
 import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Coding from "./pages/Coding";
+import Photography from "./pages/Photography";
+import Hobbies from "./pages/Hobbies";
+import VentureCapital from "./pages/VentureCapital";
+import Coffee from "./pages/Coffee";
+import ReferralCode from "./pages/ReferralCode";
 import Navbar from "./components/Navbar"
 function App() {
   console.log("app is running")
@@ -12,7 +18,15 @@ function App() {
       <Routes>
       <Route path="/Home" element={<HomePage />} />
       <Route path="/About" element={<About />} />
+      <Route path="/Coding" element={<Coding />} />
+      <Route path="/Photography" element={<Photography />} />
+      <Route path="/VentureCapital" element={<VentureCapital />} />
+      <Route path="/Coffee" element={<Coffee />} />
+      <Route path="/PromoCode" element={<ReferralCode />} />
+      <Route path="/Hobbies" element={<Hobbies />} />
       <Route path="/Contact" element={<Contact />} />
+
+      
       <Route path="/" element={<Navigate to="/Home" />} />
       <Route
             path="*"

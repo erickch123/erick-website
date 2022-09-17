@@ -10,12 +10,35 @@ export default function Navbar() {
             </a>
           </a> */}
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+          <a href="/Home" className="mr-5 hover:text-black">
+              Home
+            </a>
             <a href="/About" className="mr-5 hover:text-black">
               About
+            </a>
+            
+            <a href="/Coding" className="mr-5 hover:text-black">
+              Coding
+            </a>
+            <a href="/Photography" className="mr-5 hover:text-black">
+              Photography
+            </a>
+            <a href="/VentureCapital" className="mr-5 hover:text-black">
+              Venture Capital
+            </a>
+            <a href="/Coffee" className="mr-5 hover:text-black">
+              Coffee
+            </a>
+            <a href="/ReferralCode" className="mr-5 hover:text-black">
+              Referral Code
+            </a>
+            <a href="/Hobbies" className="mr-5 hover:text-black">
+              Too many Other Hobbies
             </a>
             <a href="/Contact" className="mr-5 hover:text-black">
               Contact
             </a>
+            
           </nav>
           {/* <a
             href="#contact"

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Books from '../components/Books'
 export default function About() {
   return (
     <section id="about">
@@ -37,5 +37,6 @@ export default function About() {
         </div>
       </div>
     </section>
+    
   );
 }
