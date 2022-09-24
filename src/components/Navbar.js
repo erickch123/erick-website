@@ -14,7 +14,7 @@ export default function Navbar() {
               Home
             </a>
             <a href="/About" className="mr-5 hover:text-black">
-              About
+              More Info
             </a>
             
             <a href="/Coding" className="mr-5 hover:text-black">
