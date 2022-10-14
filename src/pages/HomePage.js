@@ -1,7 +1,5 @@
 import * as React from "react";
 // import { useState, useEffect, useContext} from "react";
-import Books from '../components/Books'
-import Coffee from '../components/Coffee'
 import profilepic from "../images/profilephoto2.jpeg"
 import theleanstartup from "../images/theleanstartup.jpeg"
 import peopletempleacehextended from "../images/peopletempleacehextende.jpg"

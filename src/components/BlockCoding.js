@@ -55,9 +55,14 @@ const OutsideProjectDetails = [
 ]
 const PersonalProjectDetails = [
     {
-        title: "Third Place in DBS Bank Design and Artificial Intelligence Challenge",
-        description: "Competition held by SUTD and DBS Bank to predict promising credit card",
-        contribution: "Proposed a credit card to target young working adults aged 25-33 which has the highest tendency to acquire new credit cards based on the Machine Learning Training Model using Scikit Library"
+        title: "This Website",
+        description: "As mentioned, this website is for me to showcase what I've done, not only in software engineering projects but my other hobbies as well",
+        contribution: "The website is built with React js framework and Tailwind CSS"
+    },
+    {
+        title: "Web Scraping",
+        description: "Web Scraping",
+        contribution: "My First ever attemp of coding project outside of school during my term 2 in university"
     },
 
 ]
@@ -87,7 +92,7 @@ function FullBlock(props) {
 
 
     return (
-        <div className="container pl-10 flex px-10 pt-20 md:flex-row flex-col-2 items-center">
+        <div className="container flex px-10 pt-20 md:flex-row flex-col-2 items-center ">
             <div className=" pl-20  w-[300px] shrink-0 lg:pr-24  mb-16  text-left">
                 <h1 className="pb-10 text-4xl">
                     <b>{header}</b>
@@ -120,7 +125,7 @@ function BlockCodingContent(props) {
 
 
     return (
-        <div className="pl-20">
+        <div className="pl-20 hover:bg-gray-200">
             <h1 className="text-left pb-10  text-4xl">
                 <b>{title}</b>
             </h1>
