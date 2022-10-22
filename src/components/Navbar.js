@@ -31,10 +31,10 @@ export default function Navbar() {
         name:"Referral Code",
         linkref:"/ReferralCode",
       },
-      {
-        name:"Contact",
-        linkref:"/Contact",
-      },
+      // {
+      //   name:"Contact",
+      //   linkref:"/Contact",
+      // },
       {
         name:"Bunch Of Others",
         linkref:"/Hobbies",

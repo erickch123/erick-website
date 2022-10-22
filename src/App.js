@@ -24,7 +24,7 @@ function App() {
       <Route path="/Coffee" element={<Coffee />} />
       <Route path="/PromoCode" element={<ReferralCode />} />
       <Route path="/Hobbies" element={<Hobbies />} />
-      <Route path="/Contact" element={<Contact />} />
+      {/* <Route path="/Contact" element={<Contact />} /> */}
 
       
       <Route path="/" element={<Navigate to="/Home" />} />

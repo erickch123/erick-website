@@ -10,8 +10,7 @@ export default function BlockCodingHeader() {
                         header = {header}
                         detailsName={detailsName}
                     />
-                )
-                
+                )      
             })}
            
         </section>
