@@ -27,10 +27,10 @@ export default function Navbar() {
         name:"Coffee",
         linkref:"/Coffee",
       },
-      {
-        name:"Referral Code",
-        linkref:"/ReferralCode",
-      },
+      // {
+      //   name:"Referral Code",
+      //   linkref:"/ReferralCode",
+      // },
       // {
       //   name:"Contact",
       //   linkref:"/Contact",

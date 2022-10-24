@@ -1,12 +1,14 @@
 import React from 'react';
-
+import CoffeeGridBoxes from './CoffeeGridBoxes';
+import CoffeeHeader from './CoffeeHeader';
 export default function CoffeeComponent() {
   return (
     <section>
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
-        <p>Coffee Beans I Have brewed at home</p>
-      </div>
-      <div class="grid grid-cols-3 m-20 ">
+      <CoffeeHeader
+        header = "Coffees I have brewed at Home"
+        description = "All the coffees here are from roasteries in Indonesia and Singapore. Since I am a cheapskate, I only bought beans in Singapore if there are at least 50% discounts. The beans from Indonesia are mostly not discounted, because I ask my parents to buy them from me heheee. I also sometimes bought test-roast beans such as El Salvador, Guatemala, and Colombian Geisha (whoa I also suprised) from my fellow SUTD friend who is working as a part-time barista"
+      />
+      <div class="grid md:grid-cols-3 m-20">
         {HomeBrewBeansList.map((beans)=>{
           const{beansName,roaster,altitude,varietal,process,tastingnotes,personalremarks,beanspicture} = beans;
           return(
@@ -23,10 +25,11 @@ export default function CoffeeComponent() {
           )
         })}
       </div>
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
-        <p>Coffee Beans I Have Roasted</p>
-      </div>
-      <div class="grid grid-cols-3 m-20 ">
+      <CoffeeHeader
+        header = "Coffees I have Roasted my Own"
+        description = "I happened to get free Rwanda Sample Beans from Singapore Coffee Association. I roasted them with Ikawa Roaster at Compound Coffee, $2 per 50 gr. During my first time, I asked my friend to help because I have no idea about coffee roasting knowledge"
+      />
+      <div class="grid md:grid-cols-3 m-20">
         {RoastBeansList.map((beans)=>{
           const{beansName,roaster,altitude,varietal,process,tastingnotes,personalremarks,beanspicture} = beans;
           return(
@@ -71,33 +74,6 @@ export default function CoffeeComponent() {
 
 }
 
-function CoffeeGridBoxes(props) {
-  const {
-    beansName, roaster,altitude,beanspicture, tastingnotes, personalremarks, process, varietal
-  } = props
-  return (
-    <div className="flex-col m-6 border p-5 rounded-lg hover:bg-slate-200">
-      <div className=" content-center h-250 w-200">
-        <img
-          className="object-cover object-center rounded "
-          alt="hero"
-          src={beanspicture}
-        />
-      </div>      
-      <div className = "mt-5 border p-2 rounded-lg font-mono text-left text-xs">
-        <p><b>Beans :</b> {beansName}</p>
-        <p><b>Roaster :</b> {roaster}</p>
-        <p><b>Altitude :</b> {altitude}</p>
-        <p><b>Varietal :</b> {varietal}</p>
-        <p><b>Process :</b> {process}</p>
-        <p><b>Tasting Notes  :</b> {tastingnotes}</p>
-        <p> <b>Personal Remarks :</b>{personalremarks}</p>
-      </div>
-    </div>
-
-  );
-
-}
 
 const HomeBrewBeansList= [
   {
@@ -105,8 +81,8 @@ const HomeBrewBeansList= [
     roaster: "Cumulo Coffee, Singapore",
     altitude :"",
     varietal : "Heirloom",
-    process : "Lemon Verbena, Tangerine, Lemon Grass, Black Tea, Citrus Blossom",
-    tastingnotes : "Peach, Blackberry,Chocolate",
+    process : "Washed",
+    tastingnotes : "Lemon Verbena, Tangerine, Lemon Grass, Black Tea, Citrus Blossom",
     personalremarks : "Lemon, Black Tea, and sometimes may have brown sugar finish ",
     beanspicture: require('../images/Coffee/Cumulo-YirgacheffeGedeb.webp'),
   },
