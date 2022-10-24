@@ -37,10 +37,11 @@ const HomePage = () => {
 
       <div className="container mx-auto flex px-10 py-5 lg:flex-row flex-col items-center ">
         <div className="flex justify-center content-center flex-col lg:flex-row ">
-          <div className="flex-col  ">
-            <div className="pt-5 content-center w-80  ">
-              <a className="inline-flex w-full px:auto text-center  text-white  bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                Books I'm Currently Reading
+        <div className="flex-col content-center ml-6">
+            <div className=" pt-5 w-80 content-center">
+              <a className=" inline-flex w-full  text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg">
+            
+              Books I'm Currently Reading
               </a>
               <Books
                 title="The Lean Startup"
