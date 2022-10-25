@@ -10,6 +10,7 @@ import VentureCapital from "./pages/VentureCapital";
 import Coffee from "./pages/Coffee";
 import ReferralCode from "./pages/ReferralCode";
 import Navbar from "./components/Navbar"
+import Footer from './components/Footer';
 function App() {
   console.log("app is running")
   return (
@@ -37,7 +38,7 @@ function App() {
             }
           />
       </Routes>
-      
+      <Footer/>
       {/* <h1 className="text-3xl-green font-bold underline">
         Hello world!
       </h1>    */}

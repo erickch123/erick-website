@@ -25,7 +25,7 @@ const SoftwareProjectDetails = [
     {
         title: "Website: Ascenda Loyalty Program Marketplace",
         description: "Ascenda Loyalty operates an API based Loyalty Points Marketplace which facilitates easy and seamless loyalty currency transfers between multiple loyalty programs. Customers of our loyalty points marketplace product are typically loyalty programs that want to offer their customers abilities toconvert their own loyalty currency to a variety of other third party loyalty currencies.You will be able to find many examples of such loyalty programs locally here in Singapore. Forexample, GrabRewards, which is a loyalty program for Grab, offers the ability for one to convert Grabpoints to airline currencies, such as Singapore Airlines KrisFlyer or AirAsia Big.",
-        contribution: "In this project, my contribution is heavily on backend site with only one frontend feature. I built Backend Code Infrastructure with Node.js, Express.js, and MongoDB database.Conducted CRUD Operations for real time transaction features and automated uploading/ downloading process to / from SFTP Server."
+        contribution: "In this project, my contribution is heavily on backend site with only one frontend feature. I built the backend code infrastructure with Node.js, Express.js, and MongoDB database. I implemented CRUD endpoints for real time transaction features and automated uploading/ downloading process to / from SFTP Server."
     },
     {
         title: "Android App Developments : Smart Canteen @SUTD",

@@ -36,7 +36,7 @@ const AboutContent = [
   {
     logo: require('../images/target.png'),
     header:"What is the purpose",
-    description: "  I hope what I have done maybe helpful to others who read, as well as having conversations with people who have the same interests with me to open up more opportunities and collaborations. I also feel that it's difficult to say everything about me to my friends, so in this website people may know 60-70% of myself",
+    description: "  I want to have engaging conversations with people who have the same interests with me to open up more opportunities and collaborations. I also feel that it's difficult to say everything about me to my friends, so in this website people may know 60-70% of myself. A bonus point is that I'll be happy if people are inspired",
   },
   {
     logo: require('../images/target.png'),
