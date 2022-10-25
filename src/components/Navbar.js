@@ -5,7 +5,7 @@ export default function Navbar() {
     const NavigationLists =[
       {
         name:"Home",
-        linkref:"/Home",
+        linkref:"/",
       },
       {
         name:"More Info",
