@@ -11,6 +11,7 @@ import Coffee from "./pages/Coffee";
 import ReferralCode from "./pages/ReferralCode";
 import Navbar from "./components/Navbar"
 import Footer from './components/Footer';
+import Leadership from './pages/Leadership';
 function App() {
   console.log("app is running")
   return (
@@ -25,6 +26,8 @@ function App() {
       <Route path="/Coffee" element={<Coffee />} />
       <Route path="/PromoCode" element={<ReferralCode />} />
       <Route path="/Hobbies" element={<Hobbies />} />
+      <Route path="/Leadership" element={<Leadership />} />
+      
       {/* <Route path="/Contact" element={<Contact />} /> */}
 
       

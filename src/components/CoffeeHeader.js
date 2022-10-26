@@ -3,11 +3,11 @@ export default function CoffeeHeader(props){
         header,description
     } = props;
     return(
-        <div>
-          <p className = "text-center my-10 mx-10 text-4xl underline">
+        <div className="">
+          <p className = "text-center my-10 mx-10 text-4xl ">
             <b>{header}</b>
           </p>
-          <p className = "md:text-center text-justify my-10 mx-10 text-md font-bold">
+          <p className = "md:text-center text-justify my-10 mx-10 text-md font-mono">
             {description}
           </p>
          </div>

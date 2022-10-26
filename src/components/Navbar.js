@@ -24,6 +24,10 @@ export default function Navbar() {
         linkref:"/VentureCapital",
       },
       {
+        name:"Leadership",
+        linkref:"/Leadership",
+      },
+      {
         name:"Coffee",
         linkref:"/Coffee",
       },
@@ -35,10 +39,10 @@ export default function Navbar() {
       //   name:"Contact",
       //   linkref:"/Contact",
       // },
-      {
-        name:"Bunch Of Others",
-        linkref:"/Hobbies",
-      }
+      // {
+      //   name:"Bunch Of Others",
+      //   linkref:"/Hobbies",
+      // }
     ];
 
     function NavComponents(props){
