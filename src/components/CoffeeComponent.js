@@ -6,9 +6,9 @@ export default function CoffeeComponent() {
     <section>
       <CoffeeHeader
         header = "Coffees I have brewed at Home"
-        description = "All the coffees here are from roasteries in Indonesia and Singapore. Since I am a cheapskate, I only bought beans in Singapore if there are at least 50% discounts. The beans from Indonesia are mostly not discounted, because I ask my parents to buy them from me heheee. I also sometimes bought test-roast beans such as El Salvador, Guatemala, and Colombian Geisha (whoa I also suprised) from my fellow SUTD friend who is working as a part-time barista"
+        description = "All the coffees here are from roasteries in Indonesia and Singapore. Since I am a cheapskate, I only bought beans in Singapore if there are at least 50% discounts. The beans from Indonesia are mostly not discounted, because I ask my parents to buy them from me 😎. I also sometimes got test-roast beans such as El Salvador, Guatemala, and Colombian Geisha from my fellow SUTD friend who is working as a part-time barista"
       />
-      <div class="grid md:grid-cols-3 m-20">
+      <div class="grid md:grid-cols-3 lg:m-5">
         {HomeBrewBeansList.map((beans)=>{
           const{beansName,roaster,altitude,varietal,process,tastingnotes,personalremarks,beanspicture} = beans;
           return(

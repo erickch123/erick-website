@@ -46,7 +46,7 @@ const HomePage = () => {
               <Books
                 title="The Lean Startup"
                 writer="Eric Ries"
-                Pages="270-300"
+                Pages="336"
                 pict={theleanstartup}
               />
             </div>

@@ -42,7 +42,7 @@ const DataProjectDetails = [
     },
     {
         title: "Machine Learning : Covid-19 Death Prediction",
-        description: "Final Project in Data Driven World Course with two problem statements and we splitted evenly among our group",
+        description: "Final Project in Data Driven World Course with two problem statements and we splitted among our group",
         contribution: "In this project, I cleaned the World Covid-19 Data sourced from Kaggle with Pandas and Numpy Python Library and built a Linear regression model with 90 percent accuracy against the number of total cases, total tests,vaccination rates, population, without implementing Scikit Library"
     },
 ]
@@ -76,8 +76,8 @@ const OutsideProjectDetails = [
 const PersonalProjectDetails = [
     {
         title: "This Website",
-        description: "As mentioned, this website is for me to showcase what I've done, not only in software engineering projects but my other hobbies as well",
-        contribution: "The website is built with React js framework and Tailwind CSS"
+        description: "As mentioned, this website is for me to showcase what I've done, not only in software engineering projects but my other hobbies as well. And one more thing, I still prefer backend compared to frontend 😀.",
+        contribution: "The website is built with React Js framework and Tailwind CSS"
     },
     {
         title: "Web Scraping",
