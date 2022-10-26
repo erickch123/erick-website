@@ -62,7 +62,7 @@ const HomePage = () => {
                 altitude="1800-2200"
                 varietal="Heirloom"
                 process="Washed"
-                tastingnotes="Peach, Blackberry,Chocolate"
+                tastingnotes="Lemon Verbena, Tangerine, Lemon Grass, Black Tea, Citrus Blossom"
                 personalremarks="Lemon, Black Tea, and sometimes may have brown sugar finish "
                 beanspicture={cumuloyirgacheffe}
               />
