@@ -16,14 +16,11 @@ const HomePage = () => {
             Hi, I'm Erick Chandra.
           </p>
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-
             <br className="hidden lg:inline-block " />A penultimate Computer Science Student at SUTD, specialising in Fintech and Artificial Intelligence.
           </h1>
-
           <p className="mb-8 leading-relaxed text-justify"> My experience inclines toward <b>Backend Software Engineering</b> and a bit of <b>Frontend Developer</b>.
             During my free time, I love watching, reading, or listening to podcasts about <b>Startups</b>, technology, and inspirational figures; which makes me interested to become a <b>Venture Capitalist</b> one day.  I also love <b>Photography </b>, brewing <b> Specialty Coffee</b>,<b> Basketball</b>, cooking, visit libraries or exhibitions, and participating in <b>Leadership</b> events. Sometimes, I upcycle waste for personal <b>Sustainability</b> projects.
           </p>
-
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
@@ -32,21 +29,18 @@ const HomePage = () => {
             src={profilepic}
           />
         </div>
-
       </div>
-
       <div className="container mx-auto flex px-10 py-5 lg:flex-row flex-col items-center ">
         <div className="flex justify-center content-center flex-col lg:flex-row ">
         <div className="flex-col content-center ml-6">
             <div className=" pt-5 w-80 content-center">
-              <a className=" inline-flex w-full  text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg">
-            
+              <a className=" inline-flex w-full  text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg">    
               Books I'm Currently Reading
               </a>
               <Books
                 title="The Lean Startup"
                 writer="Eric Ries"
-                Pages="336"
+                pages="336"
                 pict={theleanstartup}
               />
             </div>
