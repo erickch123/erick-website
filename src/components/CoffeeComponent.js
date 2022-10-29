@@ -29,7 +29,7 @@ export default function CoffeeComponent() {
         header = "Coffees I have Roasted my Own"
         description = "I happened to get free Rwanda Sample Beans from Singapore Coffee Association. I roasted them with Ikawa Roaster at Compound Coffee, $2 per 50 gr. During my first time, I asked my friend to help because I have no idea about coffee roasting knowledge"
       />
-      <div class="grid md:grid-cols-3 m-20">
+      <div class="grid md:grid-cols-3 lg:m-5">
         {RoastBeansList.map((beans)=>{
           const{beansName,roaster,altitude,varietal,process,tastingnotes,personalremarks,beanspicture} = beans;
           return(
@@ -79,7 +79,7 @@ const HomeBrewBeansList= [
   {
     beansName :"Ethiopia Yirgacheffe Gedeb",
     roaster: "Cumulo Coffee, Singapore",
-    altitude :"",
+    altitude :"1800-2200",
     varietal : "Heirloom",
     process : "Washed",
     tastingnotes : "Lemon Verbena, Tangerine, Lemon Grass, Black Tea, Citrus Blossom",
@@ -92,7 +92,7 @@ const HomeBrewBeansList= [
     altitude:"1200-1600",
     varietal : "Mixed",
     process : "Extended Natural",
-    tastingnotes : "Peach, Blackberry,Chocolate",
+    tastingnotes : "Grapefruit, Ripe Peach,Bittersweet Chocolate",
     personalremarks : "Strong Lychee flavour, funky, the best Indo Beans Ive tried",
     beanspicture: require('../images/Coffee/PeopleTemple-AcehExtended.jpeg'),
   },{

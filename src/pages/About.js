@@ -36,17 +36,17 @@ const AboutContent = [
   {
     logo: require('../images/target.png'),
     header:"What is the purpose",
-    description: "  I want to have engaging conversations with people who have the same interests with me and open up more opportunities and collaborations. I also feel that it's difficult to say everything about me to my friends, so in this website people may know 60-70% of myself. A bonus point is that I'll be happy if someone get inspired",
+    description: "  I want to have engaging conversations with people who have the same interests with me and open up more opportunities and collaborations. I also feel that it's difficult to say everything about me to my friends, so in this website people may know 50-60% of myself. A bonus point is that I'll be happy if someone get inspired.",
   },
   {
     logo: require('../images/rocket.png'),
     header:"What I am aiming in the near future",
-    description: "Spend more time on any of my hobbies before studying 24/7 again in September 2023. Because there is more study-life balance during internship and exchange. I'm also doing something new which is creating TikTok account called Coffeecodingcamera and planning to write articles on Medium",
+    description: "Spend more time on any of my hobbies before studying 24/7 again in September 2023. Because there is more study-life balance during internship and exchange. I'm also doing something new which is creating TikTok account called Coffeecodingcamera and planning to write articles on Medium.",
   },
   {
     logo: require('../images/workinprogress.png'),
     header:"Work in Progress for Website",
-    description: "I will have each dedicate page for Promo Code, Leadership, Sustainability, Books I have read, Basketball, Library Visit, Writing, Podcast, and maybe other stuff that I have been doing but I don't even remember.",
+    description: "I will have each dedicate page for promo code, sustainability, books I have read, basketball, library visit, writing, podcast, and maybe other stuff that I have been doing but I don't even remember.",
   },
   
 ]
