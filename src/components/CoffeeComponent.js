@@ -98,8 +98,8 @@ const HomeBrewBeansList= [
   },{
     beansName : "Colombia Finca Villarazo",
     roaster: "Cumulo Coffee, Singapore",
-    altitude:"",
-    varietal : "",
+    altitude:"1800",
+    varietal : "Castillo",
     process : "Extended Natural, Ice Fermentation",
     tastingnotes : "Peach, Blackberry,Chocolate",
     personalremarks : "Pineapple,Grape,Honey",
@@ -107,7 +107,7 @@ const HomeBrewBeansList= [
   },{
     beansName :"Flores Uwu #01",
     roaster: "Common Grounds, Indonesia",
-    altitude:"",
+    altitude:"1400-1600",
     varietal : "Kartika",
     process : "Anaerobic Natural",
     tastingnotes : "Blueberry,Grape Gum, Passion Fruit",
@@ -127,9 +127,9 @@ const HomeBrewBeansList= [
   {
     beansName :"Bali Kintamani 04",
     roaster: "Common Grounds, Indonesia",
-    altitude:"",
+    altitude:"1400-1450",
     varietal : "Kartika",
-    process : "",
+    process : "Experimental",
     tastingnotes : "Blackforest Cake, Cherry, Rum",
     personalremarks : "I don't really remember ...",
     beanspicture: require('../images/Coffee/CommonGrounds-BaliKintamani04.jpeg'),
@@ -137,7 +137,7 @@ const HomeBrewBeansList= [
   {
     beansName :"Ethiopia Hambela Wamena",
     roaster: "Common Grounds, Indonesia",
-    altitude:"",
+    altitude:"1950-2000",
     varietal : "wolisho Kurume, 74110, 74112",
     process : "Natural",
     tastingnotes : "Rambutan, Rose Tea, Rose Apple",
