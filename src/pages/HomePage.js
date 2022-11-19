@@ -51,14 +51,14 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-                beansName="Ethiopia Yirgacheffe Gedeb"
-                roaster="Cumulo Coffee, Singapore"
-                altitude="1800-2200"
-                varietal="Heirloom"
-                process="Washed"
-                tastingnotes="Lemon Verbena, Tangerine, Lemon Grass, Black Tea, Citrus Blossom"
-                personalremarks="Lemon, Black Tea, and sometimes may have brown sugar finish "
-                beanspicture={cumuloyirgacheffe}
+           beansName = "Rwanda Nkora CWS, Western Province"
+           roaster= "Myself with Ikawa Roaster"
+           altitude =""
+           varietal = "Bourbon"
+           process = "Washed"
+           tastingnotes = "Apple and hint of chocolate"
+           personalremarks = "Free from Singapore Coffee Association"
+           beanspicture= {require('../images/Coffee/OwnRoast-RwandaWashed.jpeg')}
               />
             </div>
           </div>

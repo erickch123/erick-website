@@ -286,7 +286,7 @@ const RoastBeansList= [
     altitude :"",
     varietal : "Bourbon",
     process : "Washed",
-    tastingnotes : "",
+    tastingnotes : "Apple and hint of chocolate",
     personalremarks : "Free from Singapore Coffee Association",
     beanspicture: require('../images/Coffee/OwnRoast-RwandaWashed.jpeg'),
   },
