@@ -296,8 +296,8 @@ const RoastBeansList= [
     altitude :"1550-1850",
     varietal : "Bourbon",
     process : "Anaerobic Natural",
-    tastingnotes : "",
-    personalremarks : "Free from Singapore Coffee Association",
+    tastingnotes : "Strawberry and Sweet",
+    personalremarks : "Free from Singapore Coffee Association.",
     beanspicture: require('../images/Coffee/OwnRoast-RwandaAnaerobic.jpeg'),
   },
   {
