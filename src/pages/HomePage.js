@@ -1,8 +1,7 @@
 import * as React from "react";
 // import { useState, useEffect, useContext} from "react";
 import profilepic from "../images/profilephoto2.jpeg"
-import theleanstartup from "../images/theleanstartup.jpeg"
-import cumuloyirgacheffe from '../images/Coffee/Cumulo-YirgacheffeGedeb.webp'
+import goodtogreat from "../images/Books/goodtogreat.jpeg"
 import CoffeeGridBoxes from "../components/CoffeeGridBoxes"
 import Books from "../components/Books"
 
@@ -32,16 +31,16 @@ const HomePage = () => {
       </div>
       <div className="container mx-auto flex px-10 py-5 lg:flex-row flex-col items-center ">
         <div className="flex justify-center content-center flex-col lg:flex-row ">
-        <div className="flex-col content-center ml-6">
+          <div className="flex-col content-center ml-6">
             <div className=" pt-5 w-80 content-center">
-              <a className=" inline-flex w-full  text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg">    
-              Books I'm Currently Reading
+              <a className=" inline-flex w-full  text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg">
+                Books I'm Currently Reading
               </a>
               <Books
                 title="The Lean Startup"
-                writer="Eric Ries"
-                pages="336"
-                pict={theleanstartup}
+                writer="Jim Collins"
+                pages="320"
+                pict={goodtogreat}
               />
             </div>
           </div>
@@ -51,14 +50,14 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-           beansName = "Rwanda Nkora CWS, Western Province"
-           roaster= "Myself with Ikawa Roaster"
-           altitude =""
-           varietal = "Bourbon"
-           process = "Washed"
-           tastingnotes = "Apple and hint of chocolate"
-           personalremarks = "Free from Singapore Coffee Association"
-           beanspicture= {require('../images/Coffee/OwnRoast-RwandaWashed.jpeg')}
+                beansName ="Lot 37 Rwanda,Juru Coffee Farm"
+                roaster= "Myself with Ikawa Roaster"
+                altitude ="1700-2200"
+                varietal = "Red Bourbon"
+                process = "Natural"
+                tastingnotes = "Jasmine and Peach"
+                personalremarks = "Free from Visit Rwanda Committee 2022"
+                beanspicture= {require('../images/Coffee/OwnRoast-RwandaLot37.jpg')}
               />
             </div>
           </div>
