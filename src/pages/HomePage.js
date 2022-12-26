@@ -1,7 +1,7 @@
 import * as React from "react";
 // import { useState, useEffect, useContext} from "react";
 import profilepic from "../images/profilephoto2.jpeg"
-import goodtogreat from "../images/Books/goodtogreat.jpeg"
+
 import CoffeeGridBoxes from "../components/CoffeeGridBoxes"
 import Books from "../components/Books"
 
@@ -37,10 +37,10 @@ const HomePage = () => {
                 Books I'm Currently Reading
               </a>
               <Books
-                title="The Lean Startup"
-                writer="Jim Collins"
-                pages="320"
-                pict={goodtogreat}
+                title="You Do You"
+                writer="Fellexandro Ruby"
+                pages="256"
+                pict={require("../images/Books/youdoyou.jpeg")}
               />
             </div>
           </div>
@@ -50,14 +50,15 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-                beansName ="Lot 37 Rwanda,Juru Coffee Farm"
-                roaster= "Myself with Ikawa Roaster"
-                altitude ="1700-2200"
-                varietal = "Red Bourbon"
+                beansName ="Bali Kintamani Karana Madu, Catur Region"
+                roaster= "Expat Roasters, Bali, Indonesia"
+                altitude ="1800-2200"
+                varietal = "USDAI"
                 process = "Natural"
-                tastingnotes = "Jasmine and Peach"
-                personalremarks = "Free from Visit Rwanda Committee 2022"
-                beanspicture= {require('../images/Coffee/OwnRoast-RwandaLot37.jpg')}
+                tastingnotes = "Sweet rockmelon, peanut, jackfruit, hints of dates, biscuits"
+                personalremarks = "Orange and Honey/Melon Sweetness"
+                beanspicture= {require('../images/Coffee/Expat-KintamaniNatural.webp')}
+              
               />
             </div>
           </div>
