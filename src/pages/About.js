@@ -26,7 +26,7 @@ const AboutContent = [
   {
     logo: require('../images/stud.png'),
     header:"What I'm Doing Right now",
-    description: "I am interning as a Backend Software Engineer at Mediacorp, a nationwide and worldwide broadcasting company in Singapore from September to December 2022. Right after, I am going for student exchange at Uppsala University, Sweden, until June 2023.",
+    description: "I am enjoying my life as an exchange student at Uppsala University, Sweden, until June 2023.",
   },
   {
     logo: require('../images/person.png'),
