@@ -350,4 +350,14 @@ const RoastBeansList= [
     personalremarks : "Free from Visit Rwanda Committee 2022",
     beanspicture: require('../images/Coffee/OwnRoast-RwandaLot37.jpg'),
   },
+{
+  beansName :"Costa Rica Aguilera Brothers",
+  roaster: "Myself",
+  altitude :"1800-2200",
+  varietal : "San Roque Kenia",
+  process : "Anaerobico",
+  tastingnotes : "Cherry, Black Tea",
+  personalremarks : "Free samples from Compound Coffee",
+  beanspicture: require('../images/Coffee/OwnRoast-CostaRicaAnaerobico.jpg')
+},
 ]
