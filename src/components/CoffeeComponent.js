@@ -96,7 +96,7 @@ const HomeBrewBeansList= [
     process : "Natural",
     tastingnotes : "Strawberry,raspberry,peach, rose",
     personalremarks : "The beans I brought back from Denmark Coffee Festival.",
-    beanspicture: require('../images/Coffee/Europe/AndersenMailllardGuatemalaDenmark')
+    beanspicture: require('../images/Coffee/Europe/AndersenMailllardGuatemalaDenmark.jpeg')
   },
   
   {
@@ -370,16 +370,16 @@ const CafeVisitBeansList= [
     process : "Anaerobic Natural",
     tastingnotes : "",
     personalremarks : "Taste like marshmellow, the best one at Helsinki Coffee Fest",
-    beanspicture: require('../images/Coffee/Europe/LehmusColombiaFinlandCoffeeFest.jpeg'),
+    beanspicture: require('../images/Coffee/Europe/LehmusColombiaFinlandCoffeeFest.png'),
   },
   {
-    beansName :"hayo",
-    roaster: "Denmark",
-    altitude :"",
-    varietal : "",
-    process : "",
-    tastingnotes : "",
-    personalremarks : "like marshmello, the best one at Danish Coffee Fest",
+    beansName :"Hacienda La Papaya,Juan Pena, Saraguro, Ecuador",
+    roaster: "La Cabra",
+    altitude :"2000",
+    varietal : "Typica",
+    process : "Anaerobic Honey",
+    tastingnotes : "Floral and Wild",
+    personalremarks : "From Danish Coffee Fest",
     beanspicture: require('../images/Coffee/Cumulo-YirgacheffeGedeb.webp'),
   },
   {
