@@ -17,8 +17,7 @@ const HomePage = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             <br className="hidden lg:inline-block " />A penultimate Computer Science Student at SUTD, specialising in Fintech and Artificial Intelligence.
           </h1>
-          <p className="mb-8 leading-relaxed text-justify"> My experience inclines toward <b>Backend Software Engineering</b> and a bit of <b>Frontend Developer</b>.
-            During my free time, I love watching, reading, or listening to podcasts about <b>Startups</b>, technology, and inspirational figures; which makes me interested to become a <b>Venture Capitalist</b> one day.  I also love <b>Photography </b>, brewing <b> Specialty Coffee</b>,<b> Basketball</b>, cooking, visit libraries or exhibitions, and participating in <b>Leadership</b> events. Sometimes, I upcycle waste for personal <b>Sustainability</b> projects.
+          <p className="mb-8 leading-relaxed text-justify"> My experience leans towards <b>Backend Software Engineering</b> and a bit of <b>Frontend Development</b>. During my free time, I enjoy watching, reading, or listening to podcasts about <b>startups</b>, <b>technology</b>, and inspirational figures. This has sparked my interest in becoming a <b>Venture Capitalist</b> one day. I also have a passion for <b>photography</b>, brewing <b>specialty coffee</b>, playing <b>basketball</b>, cooking, visiting libraries or exhibitions, and participating in <b>leadership</b> events. Occasionally, I upcycle waste for personal <b>sustainability</b> projects.
           </p>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -50,14 +49,14 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-                beansName ="Costa Rica Aguilera Brothers"
-                roaster= "Myself"
-                altitude ="1800-2200"
-                varietal = "San Roque Kenia"
-                process = "Anaerobico"
-                tastingnotes = "Cherry, Black Tea"
-                personalremarks = "Free samples from Compound Coffee"
-                beanspicture= {require('../images/Coffee/OwnRoast-CostaRicaAnaerobico.jpg')}
+                beansName ="Colombia Yobani Ramos"
+                roaster= "Morgon Coffee Roasters, Gothenburg, Sweden"
+                altitude ="1900"
+                varietal = "Pink Bourbon"
+                process = "Washed"
+                tastingnotes = "Juicy and clean with notes of lemonade and mango"
+                personalremarks = "Beans that I brought back from my exchange in Sweden."
+                beanspicture= {require('../images/Coffee/MorgonCoffeeColombia.jpeg')}
               />
             </div>
           </div>

@@ -26,7 +26,7 @@ const AboutContent = [
   {
     logo: require('../images/stud.png'),
     header:"What I'm Doing Right now",
-    description: "I am enjoying my life as an exchange student at Uppsala University, Sweden, until June 2023.",
+    description: "Just came back to Singapore from an exchange program in Sweden, spending the rest of my summer break as a part-timer at Tanamera Coffee and interning at Climate Action Data Trust as a Technical Project Manager.",
   },
   {
     logo: require('../images/person.png'),

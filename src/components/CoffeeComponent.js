@@ -6,7 +6,7 @@ export default function CoffeeComponent() {
     <section>
       <CoffeeHeader
         header = "Coffees I have brewed at Home"
-        description = "All the coffees here are from roasteries in Indonesia and Singapore. Since I am a cheapskate, I only bought beans in Singapore if there are at least 50% discounts. The beans from Indonesia are mostly not discounted, because I ask my parents to buy them from me 😎. I also sometimes got test-roast beans such as El Salvador, Guatemala, and Colombian Geisha from my fellow SUTD friend who is working as a part-time barista"
+        description = "All the coffees here are from roasteries in Indonesia and Singapore. Since I am a cheapskate, I only bought beans in Singapore if there are at least 50% discounts. The beans from Indonesia are mostly not discounted, because I ask my parents to buy them from me 😎. I also sometimes got test-roast beans such as El Salvador, Guatemala, and Colombian Geisha from my fellow SUTD friend who is working as a part-time barista."
       />
       <div class="grid md:grid-cols-3 lg:m-5">
         {HomeBrewBeansList.map((beans)=>{
@@ -46,9 +46,11 @@ export default function CoffeeComponent() {
           )
         })}
       </div>
-      {/* <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
-        <p>Coffee Beans from the shop I have visited</p>
-        <p>I rarely drink coffee outside since I don't really want to spend $5-10 for a coffee, except if I have a voucher :D. The list here is also only some coffee that I remember</p>
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
+      <CoffeeHeader
+        header = "Coffee Beans from Cafe Hopping"
+        description = "I rarely drink coffee outside since I don't really want to spend $5-10 for a coffee, except if I have a voucher :D or traveling. The beans here are those that left me a good impressions &#x270C;"
+      />
       </div>
       <div class="grid grid-cols-3 m-20 ">
         {CafeVisitBeansList.map((beans)=>{
@@ -67,7 +69,7 @@ export default function CoffeeComponent() {
           )
         })}
       </div>
-       */}
+      
     </section>
   );
 
@@ -76,6 +78,49 @@ export default function CoffeeComponent() {
 
 
 const HomeBrewBeansList= [
+  {
+    beansName :"Colombia Yobani Ramos",
+    roaster: "Morgon Coffee Roasters, Gothenburg, Sweden",
+    altitude :"1900",
+    varietal : "Pink Bourbon",
+    process : "Washed",
+    tastingnotes : "Juicy and clean with notes of lemonade and mango",
+    personalremarks : "Beans I brought back from Sweden to Singapore.",
+    beanspicture: require('../images/Coffee/MorgonCoffeeColombia.jpeg')
+  },
+  {
+    beansName :"Diana & Hector Ovalle, Huehuetenango, Guatemala",
+    roaster: "Andersen & Maillard, Denmark",
+    altitude :"",
+    varietal : "Catuurra",
+    process : "Natural",
+    tastingnotes : "Strawberry,raspberry,peach, rose",
+    personalremarks : "The beans I brought back from Denmark Coffee Festival.",
+    beanspicture: require('../images/Coffee/Europe/AndersenMailllardGuatemalaDenmark')
+  },
+  
+  {
+    beansName :"Ethiopia Shoondisha",
+    roaster: "Manhattan Coffee Roasters, Netherland",
+    altitude :"",
+    varietal : "74110,74112",
+    process : "Natural",
+    tastingnotes : "Berry, Strawberry, White Sugar",
+    personalremarks : "Generally fruity and sweat. Bought this at Arrenius Coffee Uppsala,Sweden",
+    beanspicture: require('../images/Coffee/Europe/ManhattanEthipiaShoondisa.png')
+  },
+
+  {
+    beansName :"Ethiopia Yirgacheffe",
+    roaster: "Mok Coffee, Belgium",
+    altitude :"",
+    varietal : "Kurume",
+    process : "Washed",
+    tastingnotes : "Floral",
+    personalremarks : "Trying to make espresso beans with hand brew. Not bad but not that special either",
+    beanspicture: require('../images/Coffee/Europe/MokEthiopia.png')
+  },
+ 
   {
     beansName :"Bali Kintamani Karana Madu, Catur Region",
     roaster: "Expat Roasters, Bali, Indonesia",
@@ -278,16 +323,77 @@ const HomeBrewBeansList= [
 
 const CafeVisitBeansList= [
   {
-    beansName :"Ethiopia Yirgacheffe Gedeb",
-    roaster: "Cumulo Coffee, Singapore",
+    beansName :"Aceh Gayo Natural",
+    roaster: "Tanamera Coffee Indonesia/Singapore",
     altitude :"",
-    varietal : "Heirloom",
-    process : "Lemon Verbena, Tangerine, Lemon Grass, Black Tea, Citrus Blossom",
-    tastingnotes : "Peach, Blackberry,Chocolate",
-    personalremarks : "Lemon, Black Tea, and sometimes may have brown sugar finish ",
+    varietal : "",
+    process : "Natural",
+    tastingnotes : "Strawberry,mirabelle,black tea",
+    personalremarks : "Unlike other Aceh Gayo beans, this one is very sweet with strawberry notes. My fav beans from the part-time job here",
+    beanspicture: require('../images/Coffee/Tanamera_AcehGayo.webp'),
+  },
+  {
+    beansName :"Colombia Huila Jonathan Gasca",
+    roaster: "Mok Coffee Belgium",
+    altitude :"",
+    varietal : "Gesha",
+    process : "Washed",
+    tastingnotes : "Chamomile,mirabelle,black tea",
+    personalremarks : "Very floral, with pear sweatness notes as well ",
+    beanspicture: require('../images/Coffee/Europe/MokColombiaJonathanGasca.png'),
+  },
+  {
+    beansName :"Guatemala",
+    roaster: "Vero Cafe, Lithuania",
+    altitude :"1700",
+    varietal : "",
+    process : "Anaerobic Natural",
+    tastingnotes : "grapefruit, cocoa and almond flavor",
+    personalremarks : "I didnt expect this Lithuanian coffee chain to have such a good cup of americano, with blueberry sweetness that is comparable with a cup of good filter coffee.",
+    beanspicture: require('../images/Coffee/Europe/VeroCafeGuatemala.jpeg'),
+  },
+  {
+    beansName :"Shwe Taung Thu, Myin Kya Doe, Myanmar",
+    roaster: "The Miners Czech Republic",
+    altitude :"1300",
+    varietal : "Red Catuai",
+    process : "Natural",
+    tastingnotes : "Mandarin,Cranberry",
+    personalremarks : "Didnt expect Myanmar beans can be very sweet like orange",
+    beanspicture: require('../images/Coffee/Europe/TheMinersMyanmarBeans.jpeg'),
+  },
+  {
+    beansName :"Nestor Lasso, El Diviso, Colombia",
+    roaster: "Lehmus Roastery, Finland",
+    altitude :"",
+    varietal : "Red Bourbon",
+    process : "Anaerobic Natural",
+    tastingnotes : "",
+    personalremarks : "Taste like marshmellow, the best one at Helsinki Coffee Fest",
+    beanspicture: require('../images/Coffee/Europe/LehmusColombiaFinlandCoffeeFest.jpeg'),
+  },
+  {
+    beansName :"hayo",
+    roaster: "Denmark",
+    altitude :"",
+    varietal : "",
+    process : "",
+    tastingnotes : "",
+    personalremarks : "like marshmello, the best one at Danish Coffee Fest",
+    beanspicture: require('../images/Coffee/Cumulo-YirgacheffeGedeb.webp'),
+  },
+  {
+    beansName :"Colombia Alex Bermudez",
+    roaster: "Good Coffee Micro Roasters,Poland",
+    altitude :"1920",
+    varietal : "Castilla",
+    process : "Washed",
+    tastingnotes : "The mango peach notes is very strong, it's like drinking Sjora",
+    personalremarks : "Mango",
     beanspicture: require('../images/Coffee/Cumulo-YirgacheffeGedeb.webp'),
   },
 ]
+
 
 const RoastBeansList= [
   {
