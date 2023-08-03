@@ -48,8 +48,8 @@ export default function CoffeeComponent() {
       </div>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
       <CoffeeHeader
-        header = "Coffee Beans from Cafe Hopping"
-        description = "I rarely drink coffee outside since I don't really want to spend $5-10 for a coffee, except if I have a voucher :D or traveling. The beans here are those that left me a good impressions &#x270C;"
+        header = "Coffee Beans from Cafe Hopping and Cupping Sessions"
+        description = "I rarely drink coffee outside since I don't really want to spend $5-10 for a coffee, except if I have a voucher :D or traveling. The beans here are those that left me good impressions &#x270C;"
       />
       </div>
       {/* <div class="grid grid-cols-3 m-20 "> */}
@@ -463,7 +463,7 @@ const CafeVisitBeansList= [
     process : "Anaerobic Natural,raspberry,orange wine, juicy",
     tastingnotes : "Wildflower honey,",
     personalremarks : "Nice Fruity Funky",
-    beanspicture: require('../images/Coffee/Europe/BeansBrosEthiopiaGuji.webp'),
+    beanspicture: require('../images/Coffee/Europe/JonasReindlAlChirripo.jpeg'),
   },
  
   {
@@ -472,9 +472,9 @@ const CafeVisitBeansList= [
     altitude :"1500-1700",
     varietal : "Red Bourbon",
     process : "Anaerobic Natural",
-    tastingnotes : "Earl Grey, Lemon, Peach",
+    tastingnotes : "Green Grape, Merlot, Plum",
     personalremarks : "Taste like green grape/white wine",
-    beanspicture: require('../images/Coffee/Europe/BeansBrosEthiopiaGuji.webp'),
+    beanspicture: require('../images/Coffee/CompoundIxhuatlan.jpeg'),
   },
   {
     beansName :"Ethiopia Yirgacheffe",
