@@ -36,10 +36,10 @@ const HomePage = () => {
                 Books I'm Currently Reading
               </a>
               <Books
-                title="Think Like A Monk"
-                writer="Jay Shetty"
-                pages="352"
-                pict={require("../images/Books/thinklikeamonk.jpeg")}
+                title="Atomic Habits"
+                writer="James Clear"
+                pages="320"
+                pict={require("../images/Books/AtomicHabits.jpeg")}
               />
             </div>
           </div>

@@ -100,6 +100,11 @@ const PersonalProjectDetails = [
 
 const InternshipDetails = [
     {
+        title: "Technical Product Manager at Climate Action Data Trust",
+        description: "CADTrust is a decentralised metadata platform that links carbon credit data from major registries, founded by Government of Singapore, World Bank, and International Emission Trading Agencies",
+        contribution: ""
+    },
+    {
         title: "Software Engineer at Mediacorp",
         description: "Mediacorp is a nationwide and worldwide broadcasting company in Singapore. I am currently serving 16 weeks of internship at Digital and Web Development Team, specifically meConnect SSO Platform.",
         contribution: "The skills that I have learned consist of Web API Infrastructure with .NET Core/C#, CI/CD with Jenkins, Unit Testing with PHPUnit, React.js, Tailwind CSS, Microsoft Azure DevOps, as well as Braze Platform for Emailing System."
