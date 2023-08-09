@@ -101,7 +101,7 @@ const PersonalProjectDetails = [
 const InternshipDetails = [
     {
         title: "Technical Product Manager at Climate Action Data Trust",
-        description: "CADTrust is a decentralised metadata platform that links carbon credit data from major registries, founded by Government of Singapore, World Bank, and International Emission Trading Agencies",
+        description: "CADTrust is a decentralised metadata platform that links carbon credit data from major registries, founded by International Emission Trading Agencies(IETA), Government of Singapore, and World Bank",
         contribution: ""
     },
     {
