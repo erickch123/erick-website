@@ -31,6 +31,11 @@ export default function Navbar() {
         name:"Coffee",
         linkref:"/Coffee",
       },
+      {
+        name:"Books",
+        linkref:"/Books",
+      },
+      
       // {
       //   name:"Referral Code",
       //   linkref:"/ReferralCode",
