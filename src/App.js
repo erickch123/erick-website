@@ -12,6 +12,7 @@ import ReferralCode from "./pages/ReferralCode";
 import Navbar from "./components/Navbar"
 import Footer from './components/Footer';
 import Leadership from './pages/Leadership';
+import Books from './pages/Books';
 function App() {
   console.log("app is running")
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route path="/PromoCode" element={<ReferralCode />} />
       <Route path="/Hobbies" element={<Hobbies />} />
       <Route path="/Leadership" element={<Leadership />} />
+      <Route path="/Books" element={<Books />} />
       
       {/* <Route path="/Contact" element={<Contact />} /> */}
 
