@@ -1,6 +1,6 @@
 export default function PhotographyContent(props) {
 
-    const description = "     I don't have any other platform where I post my portfolio. I often shots scenery either city or nature, and a bit of portrait and product photography. I am also open to explore about wedding/graduation photography if I have the chance to work part-time from the more experienced person. For Instagram, I intentionally decide what pictures to post so they match the IG-feed style so sometimes it is hard for me to choose and I don't even post several good shots. Nowadays, I only use my phone since I prioritise bringing my laptop for studying instead of taking pictures. But I will definitely bring camera during my exchange program in Sweden soon!";
+    const description = "     I don't have any other platform where I post my portfolio. I often shots scenery either city or nature, and a bit of portrait and product photography. I am also open to explore about wedding/graduation photography if I have the chance to work part-time from the more experienced person. Lately, my IG feeds are mostly travel pictures around Europe during my exchange in Sweden. I did budget traveling to 17 countries in total :)";
     const {
         image, logo
     } = props

@@ -36,6 +36,17 @@ const SoftwareProjectDetails = [
 ]
 const DataProjectDetails = [
     {
+        title: "Deep Learning Cancer Cell Classification",
+        description: "Implemented transfer learning and finetuning training of Several Models such as Regnet, ResNet, VGG",
+        contribution: "Won Best Project based on Kaggle Competition Rank at Uppsala University(my exchange university)"
+    },
+    {
+        title: "Deep Learning MNIST and CNN Segmentation Project",
+        description: "Performed classification of the MNIST dataset with PyTorch Deep Learning Library and reached 98 percent accuracy",
+        contribution: "Segmented Warwick Biomedical Dataset to detect gland in the image by implementing fully convolutional network with 0.9 Macro F1 Score."
+    },
+    
+    {
         title: "Machine Learning : Hate Speech Classification",
         description: "Final Project in Machine Learning Course to create the best model and compete with other groups.  ",
         contribution: "From the provided cleaned data with TF-IDF implementation, I tried to implement the best prediction model by exploring SVM, Random Forest, ExtraTree, XGBoost, and Adaboost Algorithms and eventually used SVM with self-customsied kernel function."
@@ -89,9 +100,14 @@ const PersonalProjectDetails = [
 
 const InternshipDetails = [
     {
-        title: "Backend Software Engineer at Mediacorp",
+        title: "Technical Product Manager at Climate Action Data Trust",
+        description: "CADTrust is a decentralised metadata platform that links carbon credit data from major registries, founded by International Emission Trading Agencies(IETA), Government of Singapore, and World Bank",
+        contribution: ""
+    },
+    {
+        title: "Software Engineer at Mediacorp",
         description: "Mediacorp is a nationwide and worldwide broadcasting company in Singapore. I am currently serving 16 weeks of internship at Digital and Web Development Team, specifically meConnect SSO Platform.",
-        contribution: "The skills that I have learned consist of Web API Infrastructure with .NET Core/C#, CI/CD with Jenkins, Unit Testing with PHPUnit, as well as Braze Platform for Emailing System."
+        contribution: "The skills that I have learned consist of Web API Infrastructure with .NET Core/C#, CI/CD with Jenkins, Unit Testing with PHPUnit, React.js, Tailwind CSS, Microsoft Azure DevOps, as well as Braze Platform for Emailing System."
     },
 
 ];
