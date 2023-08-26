@@ -9,27 +9,31 @@ export default function Navbar() {
       },
       {
         name:"More Info",
-        linkref:"/About",
+        linkref:"/about",
       },
       {
         name:"Coding",
-        linkref:"/Coding",
+        linkref:"/coding",
       },
       {
         name:"Photography",
-        linkref:"/Photography",
+        linkref:"/photography",
       },
       {
         name:"Venture Capital",
-        linkref:"/VentureCapital",
+        linkref:"/ventureCapital",
       },
       {
         name:"Leadership",
-        linkref:"/Leadership",
+        linkref:"/leadership",
       },
       {
         name:"Coffee",
-        linkref:"/Coffee",
+        linkref:"/coffee",
+      },
+      {
+        name:"Travel",
+        linkref:"/travel",
       },
       // {
       //   name:"Referral Code",
