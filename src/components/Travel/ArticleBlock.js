@@ -30,8 +30,11 @@ export default function ArticleBlock(props) {
         <p class="text-neutral-500 dark:text-neutral-300">
           {description}
         </p>
-        <p class="text-neutral-500 dark:text-neutral-300">
-          {link}
+        <p></p>
+        <p class="pt-5 underline text-neutral-500 dark:text-neutral-300">
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          Read More in Medium
+          </a>
         </p>
     </div>
     )

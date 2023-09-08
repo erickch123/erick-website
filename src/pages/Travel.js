@@ -13,29 +13,22 @@ export default function Travel() {
      
 
       <ArticleBlock
-        image="../images/Travel/Lithuania Selfie.jpeg"
+        image={require("../images/Travel/Lithuania Selfie.jpeg")}
         altname="Latvia"
-        title="How I saved money on accommodations and transport during my Eastern Europe Solo Trip"
-        link= "broken"
-        description= "My first ever blog yo"
-        date = "01.09.2023"
+        title="Budget Solo Travel Hacks: How I saved money on Accommodations and Transports in Eastern Europe(9 days 6 countries)."
+        link= "https://medium.com/@erickchandra2002/budget-solo-travel-hacks-how-i-saved-money-on-accommodations-and-transports-in-eastern-europe-9-592eebf61fe3"
+        description= "In my first travel blog, I'm excited to share this experience as a budget traveler. These tips are suitable for someone who has low level of comfort while traveling."
+        date = "09.09.2023"
       />
-       <ArticleBlock
+   
+       {/* <ArticleBlock
         image="https://mdbcdn.b-cdn.net/img/new/standard/city/018.jpg"
         altname="Latvia"
         title="How I saved money on accommodations and transport during my Eastern Europe Solo Trip"
         link= "broken"
         description= "My first ever blog yo"
         date = "01.09.2023"
-      />
-       <ArticleBlock
-        image="https://mdbcdn.b-cdn.net/img/new/standard/city/018.jpg"
-        altname="Latvia"
-        title="How I saved money on accommodations and transport during my Eastern Europe Solo Trip"
-        link= "broken"
-        description= "My first ever blog yo"
-        date = "01.09.2023"
-      />
+      /> */}
 
       
     </div>
