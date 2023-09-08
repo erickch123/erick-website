@@ -7,7 +7,7 @@ export default function Travel() {
 <div class="container my-24 mx-auto md:px-6">
  
   <section class="mb-32 text-center">
-    <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2>
+    <h2 class="mb-12 text-center text-3xl font-bold">Latest Articles</h2>
 
     <div class="grid gap-6 lg:grid-cols-3 xl:gap-x-12">
      
