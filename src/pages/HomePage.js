@@ -15,7 +15,7 @@ const HomePage = () => {
             Hi, I'm Erick Chandra.
           </p>
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-            <br className="hidden lg:inline-block " />A penultimate Computer Science Student at SUTD, specialising in Fintech and Artificial Intelligence.
+            <br className="hidden lg:inline-block " />A Final Year Computer Science Student at SUTD, specialising in Fintech and Artificial Intelligence.
           </h1>
           <p className="mb-8 leading-relaxed text-justify"> My experience leans towards <b>Backend Software Engineering</b> and a bit of <b>Frontend Development</b>. During my free time, I enjoy watching, reading, or listening to podcasts about <b>startups</b>, <b>technology</b>, and inspirational figures. This has sparked my interest in becoming a <b>Venture Capitalist</b> one day. I also have a passion for <b>photography</b>, brewing <b>specialty coffee</b>, playing <b>basketball</b>, cooking, visiting libraries or exhibitions, and participating in <b>leadership</b> events. Occasionally, I upcycle waste for personal <b>sustainability</b> projects.
           </p>
