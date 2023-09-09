@@ -12,6 +12,7 @@ import ReferralCode from "./pages/ReferralCode";
 import Navbar from "./components/Navbar"
 import Footer from './components/Footer';
 import Leadership from './pages/Leadership';
+import Travel from './pages/Travel';
 import Books from './pages/Books';
 function App() {
   console.log("app is running")
@@ -20,15 +21,16 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/Coding" element={<Coding />} />
-      <Route path="/Photography" element={<Photography />} />
-      <Route path="/VentureCapital" element={<VentureCapital />} />
-      <Route path="/Coffee" element={<Coffee />} />
-      <Route path="/PromoCode" element={<ReferralCode />} />
-      <Route path="/Hobbies" element={<Hobbies />} />
-      <Route path="/Leadership" element={<Leadership />} />
-      <Route path="/Books" element={<Books />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/coding" element={<Coding />} />
+      <Route path="/photography" element={<Photography />} />
+      <Route path="/ventureCapital" element={<VentureCapital />} />
+      <Route path="/coffee" element={<Coffee />} />
+      <Route path="/promoCode" element={<ReferralCode />} />
+      <Route path="/hobbies" element={<Hobbies />} />
+      <Route path="/leadership" element={<Leadership />} />
+      <Route path="/travel" element={<Travel />} />
+      <Route path="/books" element={<Books />} />
       
       {/* <Route path="/Contact" element={<Contact />} /> */}
 
