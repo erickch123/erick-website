@@ -3,8 +3,7 @@ import * as React from "react";
 import profilepic from "../images/profilephoto2.jpeg"
 
 import CoffeeGridBoxes from "../components/CoffeeGridBoxes"
-import Books from "../components/Books"
-
+import BooksHome from "../components/Books/BooksHome"
 
 const HomePage = () => {
   return (
@@ -29,13 +28,13 @@ const HomePage = () => {
         </div>
       </div>
       <div className="container mx-auto flex px-10 py-5 lg:flex-row flex-col items-center ">
-        <div className="flex justify-center content-center flex-col lg:flex-row ">
+        <div className="flex justify-center content-center flex-col md:flex-row ">
           <div className="flex-col content-center ml-6">
             <div className=" pt-5 w-80 content-center">
               <a className=" inline-flex w-full  text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg">
                 Books I'm Currently Reading
               </a>
-              <Books
+              <BooksHome
                 title="Atomic Habits"
                 writer="James Clear"
                 pages="320"

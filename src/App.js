@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import Leadership from './pages/Leadership';
 import Travel from './pages/Travel';
 import Books from './pages/Books';
+import 'flowbite/dist/flowbite.css';
 function App() {
   console.log("app is running")
   return (

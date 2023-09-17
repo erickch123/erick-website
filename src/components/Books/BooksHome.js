@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function Books(props) {
+export default function BooksHome(props) {
   const {
     title, writer,pages,pict
   } = props
