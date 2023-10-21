@@ -35,6 +35,11 @@ export default function Navbar() {
         name:"Travel",
         linkref:"/travel",
       },
+      {
+        name:"Books",
+        linkref:"/Books",
+      },
+      
       // {
       //   name:"Referral Code",
       //   linkref:"/ReferralCode",

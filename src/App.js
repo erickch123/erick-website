@@ -13,6 +13,8 @@ import Navbar from "./components/Navbar"
 import Footer from './components/Footer';
 import Leadership from './pages/Leadership';
 import Travel from './pages/Travel';
+import Books from './pages/Books';
+import 'flowbite/dist/flowbite.css';
 function App() {
   console.log("app is running")
   return (
@@ -29,6 +31,7 @@ function App() {
       <Route path="/hobbies" element={<Hobbies />} />
       <Route path="/leadership" element={<Leadership />} />
       <Route path="/travel" element={<Travel />} />
+      <Route path="/books" element={<Books />} />
       
       {/* <Route path="/Contact" element={<Contact />} /> */}
 

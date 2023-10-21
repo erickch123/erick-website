@@ -3,8 +3,7 @@ import * as React from "react";
 import profilepic from "../images/profilephoto2.jpeg"
 
 import CoffeeGridBoxes from "../components/CoffeeGridBoxes"
-import Books from "../components/Books"
-
+import BooksHome from "../components/Books/BooksHome"
 
 const HomePage = () => {
   return (
@@ -29,17 +28,17 @@ const HomePage = () => {
         </div>
       </div>
       <div className="container mx-auto flex px-10 py-5 lg:flex-row flex-col items-center ">
-        <div className="flex justify-center content-center flex-col lg:flex-row ">
+        <div className="flex justify-center content-center flex-col md:flex-row ">
           <div className="flex-col content-center ml-6">
             <div className=" pt-5 w-80 content-center text-center">
               <a className=" inline-flex w-full  text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg text-center">
                 Books I'm Currently Reading
               </a>
-              <Books
-                title="Talk Like Ted"
+              <BooksHome
+                title="Pioneering a Smart,Sustainable, and Resilient Future"
                 writer="Carmine Gallo"
                 pages="320"
-                pict={require("../images/Books/talkliketed.jpeg")}
+                pict={require("../images/Books/smartSustainableResilientFuture.jpeg")}
               />
             </div>
           </div>
@@ -49,14 +48,14 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-                beansName ="Panama Kambera Geisha"
-                roaster= "Cumulo Coffee Singapore"
-                altitude ="1200-15500"
-                varietal = "Geisha"
-                process = "Anaerobic Natural"
-                tastingnotes = "Cherry, Tropical Fruits, Butterscotch, Rum Cake"
-                personalremarks = "50 percent discount first time user"
-                beanspicture= {require('../images/Coffee/cumuloPanamaGeisha.webp')}
+                beansName ="Aceh Gayo Central Sumatera Coffee"
+                roaster= "Onelion Coffee, Singapore"
+                altitude ="1400"
+                varietal = "Bourbon/Abbhysinia/Ateng"
+                process ="Anerobic Natural"
+                tastingnotes = "Passion Fruits, Dried Mango, Floral, Cascara Tea, Black Tea"
+                personalremarks = "New online roastery started in Sep 2023. There was buy one get one promotion"
+                beanspicture= {require('../images/Coffee/OneLionGayoAnaerobic.webp')}
               />
             </div>
           </div>
