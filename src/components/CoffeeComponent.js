@@ -80,6 +80,26 @@
 
 
     const HomeBrewBeansList= [
+      {
+        beansName :"Aceh Gayo Central Sumatera Coffee",
+        roaster: "Onelion Coffee, Singapore",
+        altitude :"1400",
+        varietal : "Bourbon/Abbhysinia/Ateng",
+        process : "Anerobic Natural",
+        tastingnotes : "Passion Fruits, Dried Mango, Floral, Cascara Tea, Black Tea",
+        personalremarks : "New online roastery started in Sep 2023. There was buy one get one promotion",
+        beanspicture: require('../images/Coffee/OneLionGayoAnaerobic.webp')
+      },
+      {
+        beansName :"Aceh Gayo Central Sumatera Coffee",
+        roaster: "Onelion Coffee, Singapore",
+        altitude :"1400",
+        varietal : "Bourbon/Abbhysinia/Ateng",
+        process : "Natural",
+        tastingnotes : "Chocolate,tea,hint of melon",
+        personalremarks : "New online roastery started in Sep 2023. There was buy one get one promotion",
+        beanspicture: require('../images/Coffee/OneLionGayoNatural.webp')
+      },
 
     {
         beansName :"Panama Kambera Geisha",
