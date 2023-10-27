@@ -41,7 +41,7 @@ const AboutContent = [
   {
     logo: require('../images/rocket.png'),
     header:"What I am aiming in the near future",
-    description: "Spend more time on any of my hobbies before studying 24/7 again in September 2023. Because there is more study-life balance during internship and exchange. I'm also doing something new which is creating TikTok account called Coffeecodingcamera and planning to write articles on Medium.",
+    description: "Beside spending most of my time studying and interning part-time, I am trying to do freelance photography for couples, friends group, or people on vacation(dm me for more details :)). I also spend less time playing basketball so I can start gymming frequently.",
   },
   {
     logo: require('../images/workinprogress.png'),

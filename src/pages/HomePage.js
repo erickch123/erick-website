@@ -36,7 +36,7 @@ const HomePage = () => {
               </a>
               <BooksHome
                 title="Pioneering a Smart,Sustainable, and Resilient Future"
-                writer="Carmine Gallo"
+                writer="Tamas Makany"
                 pages="320"
                 pict={require("../images/Books/smartSustainableResilientFuture.jpeg")}
               />
