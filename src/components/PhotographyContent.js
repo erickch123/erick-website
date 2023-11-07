@@ -6,21 +6,16 @@ export default function PhotographyContent(props) {
     } = props
     return (
         <div className="border border-blue-900 p-16 rounded-3xl my-8 md:w-1/2 mx-auto">
-            <div className=" content-center">
+            <div className="content-center">
                 <a href="https://instagram.com/erickkkk_photos" target="_blank" rel="noopener noreferrer">
-                    <img
-
-                        className="max-h-16 max-w-16 mx-auto mb-6"
-                        alt="hero"
-                        src={require("../images/Instagram_icon.webp")}
-                    />
+                   
 
                     <h1 className="text-center pb-10 text-2xl underline">
                         <b>My Instagram Feeds</b>
                     </h1>
 
                     <img
-                        className="object-cover object-center rounded mb-10 "
+                        className="object-cover mx-auto center rounded mb-10 "
                         alt="hero"
                         src={image}
                     />

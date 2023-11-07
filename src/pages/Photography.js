@@ -4,7 +4,7 @@ export default function Photography() {
     return (
         <section>
             <PhotographyContent
-                image ={require("../images/igerickphotos.jpeg")}
+                image ={require("../images/Photography/igFeeds-8Nov23.jpg")}
                 logo ={require("../images/photog.png")}
                 />
     
