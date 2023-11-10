@@ -80,6 +80,17 @@
 
 
     const HomeBrewBeansList= [
+
+      {
+        beansName :"Ethiopia Sidamo Bensa",
+        roaster: "Yasumi Coffee, Singapore",
+        altitude :"2100",
+        varietal : "Mixed heirloom",
+        process :"Natural",
+        tastingnotes : "Blueberries, Chocolate",
+        personalremarks : "New online roastery free trial 120g",
+        beanspicture: require('../images/Coffee/YasumiEthiopiaV2.jpeg')
+      },
       {
         beansName :"Aceh Gayo Central Sumatera Coffee",
         roaster: "Onelion Coffee, Singapore",

@@ -35,10 +35,10 @@ const HomePage = () => {
                 Books I'm Currently Reading
               </a>
               <BooksHome
-                title="Pioneering a Smart,Sustainable, and Resilient Future"
-                writer="Tamas Makany"
+                title="Thinking Fast and Slow"
+                writer="Daniel Kahneman"
                 pages="320"
-                pict={require("../images/Books/smartSustainableResilientFuture.jpeg")}
+                pict={require("../images/Books/thinking-fast-and-slow.jpg")}
               />
             </div>
           </div>
@@ -48,14 +48,14 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-                beansName ="Aceh Gayo Central Sumatera Coffee"
-                roaster= "Onelion Coffee, Singapore"
-                altitude ="1400"
-                varietal = "Bourbon/Abbhysinia/Ateng"
-                process ="Anerobic Natural"
-                tastingnotes = "Passion Fruits, Dried Mango, Floral, Cascara Tea, Black Tea"
-                personalremarks = "New online roastery started in Sep 2023. There was buy one get one promotion"
-                beanspicture= {require('../images/Coffee/OneLionGayoAnaerobic.webp')}
+                beansName ="Ethiopia Sidamo Bensa"
+                roaster= "Yasumi Coffee, Singapore"
+                altitude ="2100"
+                varietal = "Mixed heirloom"
+                process ="Natural"
+                tastingnotes = "Blueberries, Chocolate"
+                personalremarks = "New online roastery free trial 120g"
+                beanspicture= {require('../images/Coffee/YasumiEthiopiaV2.jpeg')}
               />
             </div>
           </div>
