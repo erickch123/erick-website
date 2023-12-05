@@ -48,14 +48,14 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-                beansName ="Ethiopia Sidamo Bensa"
-                roaster= "Yasumi Coffee, Singapore"
-                altitude ="2100"
-                varietal = "Mixed heirloom"
-                process ="Natural"
-                tastingnotes = "Blueberries, Chocolate"
-                personalremarks = "New online roastery free trial 120g"
-                beanspicture= {require('../images/Coffee/YasumiEthiopiaV2.jpeg')}
+                  beansName ="Finca La Virgen - Matagalpa, Nicaragua"
+                  roaster="Parallel Coffee, Singapore"
+                  altitude ="950-1100"
+                  varietal = "Catuai, Bourbon, Caturra"
+                  process ="Natural"
+                  tastingnotes ="Chocolate, Caramel, Starfruit, Cacao nibs"
+                  personalremarks= "Sweet n Funky. Bought during 11.11 Sale"
+                  beanspicture={require('../images/Coffee/ParallelFincaLaVirgen.jpeg')}
               />
             </div>
           </div>

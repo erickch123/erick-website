@@ -80,7 +80,26 @@
 
 
     const HomeBrewBeansList= [
-
+      {
+        beansName :"Finca La Virgen - Matagalpa, Nicaragua",
+        roaster: "Parallel Coffee, Singapore",
+        altitude :"950-1100",
+        varietal : "Catuai, Bourbon, Caturra",
+        process :"Natural",
+        tastingnotes : "Chocolate, Caramel, Starfruit, Cacao nibs",
+        personalremarks : "Sweet & Funky. Bought during 11.11 Sale",
+        beanspicture: require('../images/Coffee/ParallelFincaLaVirgen.jpeg')
+      },
+      {
+        beansName :"El Triunfo Bloom Chiapas, Mexico",
+        roaster: "Parallel Coffee, Singapore",
+        altitude :"1250-1350",
+        varietal : "Catuai, Bourbon, Caturra",
+        process :"Washed",
+        tastingnotes : "Cacao, walnut, green apple, caramel, lemon",
+        personalremarks : "11.11 Sale",
+        beanspicture: require('../images/Coffee/ParallelElTriumfoBloom.jpeg')
+      },
       {
         beansName :"Ethiopia Sidamo Bensa",
         roaster: "Yasumi Coffee, Singapore",
@@ -368,6 +387,16 @@
     ];
 
     const CafeVisitBeansList= [
+      {
+        beansName :"Kenya Karimikui",
+        roaster: "Narrative Coffee, Singapore",
+        altitude :"1650",
+        varietal : "SL28, SL34, Ruiru 11",
+        process : "Washed",
+        tastingnotes : "Blackberry, black cherry, roselle",
+        personalremarks : "Sidra damn sweet as expected, with strong blueberry notes",
+        beanspicture: require('../images/Coffee/NarrativeKenyaFilter.webp'),
+      },
       {
         beansName :"Sidra Bourbon",
         roaster: "Asylum, Singapore",
