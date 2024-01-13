@@ -20,6 +20,7 @@ function App() {
   return (
     <div>
       <Navbar/>
+      <div className="mt-16">
       <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<About />} />
@@ -46,6 +47,9 @@ function App() {
             }
           />
       </Routes>
+
+      </div>
+      
       <Footer/>
       {/* <h1 className="text-3xl-green font-bold underline">
         Hello world!

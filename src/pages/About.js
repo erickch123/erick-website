@@ -26,12 +26,12 @@ const AboutContent = [
   {
     logo: require('../images/stud.png'),
     header:"What I'm Doing Right now",
-    description: " I'm in my final year semester one and doing part time intern at Climate Action Data Trust as a Technical Product Manager",
+    description: " I'm in my final semester at SUTD and doing part time intern at Climate Action Data Trust as a Data Engineer / Product Manager",
   },
   {
     logo: require('../images/person.png'),
     header:"What is this website about",
-    description: "  I want to express my ideas and projects that I have done. In general, I have a lot of activities apart from coding so what I am showcasing here includes school projects, personal projects, and other weird interests that can be found in the navbar such like promo code since I am a frugal & cheapskate student.",
+    description: "  I want to express my ideas and projects that I have done. In general, I have a lot of activities apart from coding so what I am showcasing here includes school projects, personal projects, and other weird interests that can be found in the navbar",
   },
   {
     logo: require('../images/target.png'),
@@ -41,7 +41,7 @@ const AboutContent = [
   {
     logo: require('../images/rocket.png'),
     header:"What I am aiming in the near future",
-    description: "Beside spending most of my time studying and interning part-time, I am trying to do freelance photography for couples, friends group, or people on vacation(dm me for more details :)). I also spend less time playing basketball so I can start gymming frequently.",
+    description: "Beside spending most of my time studying and interning part-time, I am trying to do freelance photography for couples, friends group, or people on vacation(dm me for more details :)). I also spend less time playing basketball so I can start gymming frequently. Sometimes, I do parttime barista at Tanamera Coffee Singapore as well.",
   },
   {
     logo: require('../images/workinprogress.png'),

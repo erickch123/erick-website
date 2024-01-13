@@ -34,6 +34,15 @@ const SoftwareProjectDetails = [
     },
 
 ]
+
+const BlockchainProjectDetails = [
+    {
+        title: "Heartledger DApp",
+        description: "Developed a charity application using Solidity, executed smart contract deployment locally with Ganache EVM,and launched on Mumbai testnet. I also utilised Truffle Library and Jest Testing",
+        contribution: ""
+    },
+]
+
 const DataProjectDetails = [
     {
         title: "Deep Learning Cancer Cell Classification",
@@ -100,14 +109,14 @@ const PersonalProjectDetails = [
 
 const InternshipDetails = [
     {
-        title: "Technical Product Manager at Climate Action Data Trust",
-        description: "CADTrust is a decentralised metadata platform that links carbon credit data from major registries, founded by International Emission Trading Agencies(IETA), Government of Singapore, and World Bank",
-        contribution: ""
+        title: "Data Engineer/ Technical Product Manager at Climate Action Data Trust",
+        description: "CADTrust is a decentralised metadata platform that links carbon credit data from major registries, founded by World Bank, International Emission Trading Agencies(IETA), and Government of Singapore.",
+        contribution: "I played a pivotal role in ETL processing and GCP cloud deployment for registry onboarding, overseeing stakeholder management and technical integration through proactive UAT testing. Additionally, I processed 40,000 CDM UNFCCC Registry carbon credits, integrated with the Chia blockchain data layer, and automated the ETL process. As a Product Manager, I also simultaneously managing the data dashboard and overseeing UAT testing."
     },
     {
         title: "Software Engineer at Mediacorp",
         description: "Mediacorp is a nationwide and worldwide broadcasting company in Singapore. I am currently serving 16 weeks of internship at Digital and Web Development Team, specifically meConnect SSO Platform.",
-        contribution: "The skills that I have learned consist of Web API Infrastructure with .NET Core/C#, CI/CD with Jenkins, Unit Testing with PHPUnit, React.js, Tailwind CSS, Microsoft Azure DevOps, as well as Braze Platform for Emailing System."
+        contribution: "The skills that I have learned consist of Web API Infrastructure with .NET Core/C#, CI/CD with Jenkins, Unit Testing with PHPUnit, React.js, Tailwind CSS, Microsoft Azure DevOps, as well as Braze Platform for Emailing System.  I am grateful for the opportunity to have contributed to the meCONNECT Platform during the World Cup 2022, which successfully handled traffic from 600,000 users."
     },
 
 ];
@@ -127,6 +136,11 @@ const TitleLists = [
         header: "Software School Projects",
         detailsName: SoftwareProjectDetails,
         logo:require("../images/group.png"),
+    },
+    {
+        header: "Blockchain School Projects",
+        detailsName: BlockchainProjectDetails,
+        logo:require("../images/ethereum.png"),
     },
    
  
