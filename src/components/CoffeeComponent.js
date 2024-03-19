@@ -6,7 +6,7 @@
         <section>
           <CoffeeHeader
             header = "Coffees I have brewed at Home"
-            description = "All the coffees here are from roasteries in Indonesia and Singapore. Since I am a cheapskate, I only bought beans in Singapore if there are at least 50% discounts. The beans from Indonesia are mostly not discounted, because I ask my parents to buy them from me 😎. I also sometimes got test-roast beans such as El Salvador, Guatemala, and Colombian Geisha from my fellow SUTD friend who is working as a part-time barista."
+            description = "All the coffees here are from roasteries in Indonesia, Singapore, or other places I travelled to. Since I am a cheapskate, I only bought beans in Singapore if there are at least 50% discounts. The beans from Indonesia are mostly not discounted, because I ask my parents to buy them for me 😎. I also sometimes got test-roast beans from my friends."
           />
           <div class="grid md:grid-cols-3 lg:m-5">
             {HomeBrewBeansList.map((beans)=>{
@@ -80,6 +80,59 @@
 
 
     const HomeBrewBeansList= [
+
+      {
+        beansName :"Ethiopia Mesina Muje",
+        roaster:"Homeground Coffee Singapore",
+        altitude :"",
+        varietal : "Heirloom",
+        process :"Natural",
+        tastingnotes :"Earl grey tea, blueberry, mango, hints of bergamot",
+        personalremarks: "Got from coffee cupping event hehe",
+        beanspicture:require('../images/Coffee/HomegroundMesinaMuje.webp')
+      },
+      {
+        beansName :"Finca La Veraneras, Colombia",
+        roaster:"Homeground Coffee Singapore",
+        altitude :"1750",
+        varietal : "Sudan Rume",
+        process :"Natural",
+        tastingnotes :"Green Apple, Blackberry, Kombu",
+        personalremarks: "Bought this from a friend, he's doing a monthly coffee subscription",
+        beanspicture:require('../images/Coffee/USA/HydrangeaSudanRume.webp')
+      },
+      {
+        beansName :"Pantan Musara Aceh Ribang Gayo ",
+        roaster:"Espresso Embassy Jakarta",
+        altitude :"1600",
+        varietal : "ATENG, BOURBON, P88",
+        process :"Natural",
+        tastingnotes :"Apple, berries, lychee, mango, melon, orange, pineapple, milky chocolate",
+        personalremarks: "COE #1 Coffee Indonesia 2022",
+        beanspicture:require('../images/Coffee/Indonesia/EspressoEmbassyRibangGayo.jpeg')
+      },
+      {
+        beansName :"Tuang Coffee Flores",
+        roaster:"Espresso Embassy Jakarta",
+        altitude :"1600",
+        varietal : "ATENG, BOURBON, P88",
+        process :"Natural",
+        tastingnotes :"Berry, candy, cocoa, grape, lychee, stone fruits, strawberry",
+        personalremarks: "Very sweet like strawberry",
+        beanspicture:require('../images/Coffee/Indonesia/EspressoEmbassyTuangFlores.jpeg')
+      },
+
+      
+      {
+        beansName :"Ethiopia Yirgacheffe",
+        roaster:"Wells Cafe, Penang, Malaysia",
+        altitude :"2300-2500",
+        varietal : "Heirloom",
+        process :"Double Anaerobic Washed",
+        tastingnotes :"Rose, Mix Berries, Peach, Citrus, Candy Mouthfeel",
+        personalremarks: "Silky, Simple Sugar Sweetness, Floral. Bought this back from my Penang Trip",
+        beanspicture:require('../images/Coffee/Malaysia/WellsCafeMidsummer.jpeg')
+      },
       {
         beansName :"Finca La Virgen - Matagalpa, Nicaragua",
         roaster: "Parallel Coffee, Singapore",
@@ -387,6 +440,27 @@
     ];
 
     const CafeVisitBeansList= [
+      {
+        beansName :"Chinese New Year Blend 2024",
+        roaster:"Dutch Colony Singapore",
+        altitude :"1200",
+        varietal : "",
+        process :"Washed",
+        tastingnotes :"Marmala,Blood Orange,Lemon Loaf",
+        personalremarks: "Really taste like orange",
+        beanspicture:require('../images/Coffee/DutchColonyCNY2024Coffee.webp')
+      },
+
+      {
+        beansName :"Taiwan COE#16 Melastoma Coffee Estate, Chiayi, Alishan",
+        roaster:"Wells Cafe, Penang, Malaysia",
+        altitude :"1200",
+        varietal : "SL34",
+        process :"Washed",
+        tastingnotes :"Jasmine, Bergamot, Butterscotch, Sweet plum, Green Apple",
+        personalremarks: "Taste wise not exactly special, but interesting to know there is specialty beans from Taiwan",
+        beanspicture:require('../images/Coffee/Malaysia/WellsCafeTaiwanCoe16.png')
+      },
       {
         beansName :"Kenya Karimikui",
         roaster: "Narrative Coffee, Singapore",

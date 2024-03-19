@@ -36,9 +36,9 @@ const HomePage = () => {
               </a>
               <BooksHome
                 title="Thinking Fast and Slow"
-                writer="Stephen R Covey"
+                writer="Daniel Kahneman"
                 pages="320"
-                pict={require("../images/Books/7HabitsOfHighlyEffectivePeople.jpeg")}
+                pict={require("../images/Books/thinking-fast-and-slow.jpg")}
               />
             </div>
           </div>
@@ -48,14 +48,14 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-                  beansName ="Ethiopia Yirgacheffe"
-                  roaster="Wells Cafe, Penang, Malaysia"
-                  altitude ="2300-2500"
+                  beansName ="Ethiopia Mesina Muje"
+                  roaster="Homeground Coffee Singapore"
+                  altitude =""
                   varietal = "Heirloom"
-                  process ="Double Anaerobic Washed"
-                  tastingnotes ="Rose, Mix Berries, Peach, Citrus, Candy Mouthfeel"
-                  personalremarks= "Silky, Simple Sugar Sweetness, Floral. Bought this back from my Penang Trip"
-                  beanspicture={require('../images/Coffee/Malaysia/WellsCafeMidsummer.jpeg')}
+                  process ="Natural"
+                  tastingnotes ="Earl grey tea, blueberry, mango, hints of bergamot"
+                  personalremarks= "Got from coffee cupping event hehe"
+                  beanspicture={require('../images/Coffee/HomegroundMesinaMuje.webp')}
               />
             </div>
           </div>
