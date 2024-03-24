@@ -20,6 +20,14 @@ export default function Travel() {
         description= "In my first travel blog, I'm excited to share this experience as a budget traveler. These tips are suitable for someone who has low level of comfort while traveling."
         date = "09.09.2023"
       />
+      <ArticleBlock
+        image={require("../images/Travel/NorthernLightsNorway.jpg")}
+        altname="Norway"
+        title="366 Days After Our Budget Roadtrip to Lofoten Island, Norway"
+        link= "https://medium.com/@erickchandra2002/c553622c1589"
+        description= "On 24 March 2023, exactly one year ago today, it was the last day of our 6 days budget roadtrip to Lofoten Island, Norway. We were all exchange students in Sweden"
+        date = "24.03.2024"
+      />
    
        {/* <ArticleBlock
         image="https://mdbcdn.b-cdn.net/img/new/standard/city/018.jpg"

@@ -88,7 +88,7 @@
         varietal : "Heirloom",
         process :"Natural",
         tastingnotes :"Earl grey tea, blueberry, mango, hints of bergamot",
-        personalremarks: "Got from coffee cupping event hehe",
+        personalremarks: "Free from homeground coffee cupping event hehe",
         beanspicture:require('../images/Coffee/HomegroundMesinaMuje.webp')
       },
       {
