@@ -16,7 +16,7 @@ const HomePage = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             <br className="hidden lg:inline-block " />A Final Year Computer Science Student at SUTD, specialising in Fintech and Artificial Intelligence.
           </h1>
-          <p className="mb-8 leading-relaxed text-justify"> My experience leans towards <b>Backend Software Engineering</b> and a bit of <b>Frontend Development</b>. During my free time, I enjoy watching, reading, or listening to podcasts about <b>startups</b>, <b>technology</b>, and inspirational figures. This has sparked my interest in becoming a <b>Venture Capitalist</b> one day. I also have a passion for <b>photography</b>, brewing <b>specialty coffee</b>, playing <b>basketball</b>, cooking, visiting libraries or exhibitions, and participating in <b>leadership</b> events. Occasionally, I upcycle waste for personal <b>sustainability</b> projects.
+          <p className="mb-8 leading-relaxed text-justify"> My experience leans towards <b>Backend Software Engineering, Artificial Intelligence</b> and a bit of <b>Frontend Development</b>. During my free time, I enjoy watching, reading, or listening to podcasts about <b>startups</b>, <b>technology</b>, and inspirational figures. This has sparked my interest in becoming a <b>Venture Capitalist</b> one day. I also have a passion for <b>photography</b>, brewing <b>specialty coffee</b>, playing <b>basketball</b>, cooking, visiting libraries or exhibitions, and participating in <b>leadership</b> events. Occasionally, I upcycle waste for personal <b>sustainability</b> projects.
           </p>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -35,10 +35,10 @@ const HomePage = () => {
                 Books I'm Currently Reading
               </a>
               <BooksHome
-                title="Thinking Fast and Slow"
-                writer="Daniel Kahneman"
+                title="How I Built This"
+                writer="Guy Raz"
                 pages="320"
-                pict={require("../images/Books/thinking-fast-and-slow.jpg")}
+                pict={require("../images/Books/howIbuiltthis.jpg")}
               />
             </div>
           </div>
@@ -48,14 +48,16 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-                  beansName ="Ethiopia Mesina Muje"
-                  roaster="Homeground Coffee Singapore"
-                  altitude =""
-                  varietal = "Heirloom"
-                  process ="Natural"
-                  tastingnotes ="Earl grey tea, blueberry, mango, hints of bergamot"
-                  personalremarks= "Free from Homeground Coffee cupping event hehe"
-                  beanspicture={require('../images/Coffee/HomegroundMesinaMuje.webp')}
+  
+                    beansName ="Luis Andres Caqueta, Colombia"
+                    roaster="Wolf Coffee, Queenstown, New Zealand"
+                    altitude ="1800"
+                    varietal = "Caturra, Castillo"
+                    process="Anaerobic Fermentation"
+                    tastingnotes="Mango, Passionfruit, Jasmine Honeysuckle, Maple Syrup"
+                    personalremarks= "Bought from my trip to new zealand"
+                    beanspicture={require('../images/Coffee/NewZealand/WolfCoffeeNewZealandColombia.webp')}
+
               />
             </div>
           </div>

@@ -26,7 +26,7 @@ const AboutContent = [
   {
     logo: require('../images/stud.png'),
     header:"What I'm Doing Right now",
-    description: " I'm in my final semester at SUTD and doing part time intern at Climate Action Data Trust as a Data Engineer / Product Manager",
+    description: " I'm a fresh graduate from SUTD and currently spending my time to travel before my full time job starts.",
   },
   {
     logo: require('../images/person.png'),

@@ -23,7 +23,12 @@ export default function BlockCodingHeader() {
 
 const SoftwareProjectDetails = [
     {
-        title: "Website: Ascenda Loyalty Program Marketplace",
+        title: "ResQ Personal Alarm Device Kit ",
+        description: "Final Year Group Project in collaboration with Gebirah,a global humanitarian and social initiative. ",
+        contribution: "We developed an IoT-based personal alarm device for elderlies in Singapore to instantly alert nearby individuals and emergency contacts while facing emergency situations. I designed the SQL databases, configured AWS services (EC2, MySQL), and developed secure RESTful APIs using Node.js, Express.js for a smartphone-connected IoT alarm device."
+    },
+    {
+        title: "Dynamic Site: Ascenda Loyalty Program Marketplace",
         description: "Ascenda Loyalty operates an API based Loyalty Points Marketplace which facilitates easy and seamless loyalty currency transfers between multiple loyalty programs. Customers of our loyalty points marketplace product are typically loyalty programs that want to offer their customers abilities toconvert their own loyalty currency to a variety of other third party loyalty currencies. You will be able to find many examples of such loyalty programs locally here in Singapore. Forexample, GrabRewards, which is a loyalty program for Grab, offers the ability for one to convert Grabpoints to airline currencies, such as Singapore Airlines KrisFlyer or AirAsia Big.",
         contribution: "In this project, my contribution is heavily on backend site with only one frontend feature. I built the backend code infrastructure with Node.js, Express.js, and MongoDB database. I implemented CRUD endpoints for real time transaction features and automated uploading/ downloading process to/from SFTP Server, as well as unit testing with Jest Supertest Library."
     },
@@ -44,6 +49,11 @@ const BlockchainProjectDetails = [
 ]
 
 const DataProjectDetails = [
+    {
+        title: "Temasek Generative AI Hackathon",
+        description: "Collaborated with the business team from Temasek, a global investment company in Singapore",
+        contribution: "In this project, I utilized Python and OpenAI's GPT library to create an information retrieval pipeline tailored for event planning and personalized letter notes. Extracted text from PDFs and Word files, generating FAISS vector embeddings for large PDFs to facilitate indexing. Developed a scalable indexing system with Python and OpenAI's GPT library for event planning and personalized letter notes. Summarized and indexed document chunks for efficient retrieval, ranking the top 5 documents based on user queries to enhance user experience."
+    },
     {
         title: "Deep Learning Cancer Cell Classification",
         description: "Implemented transfer learning and finetuning training of Several Models such as Regnet, ResNet, VGG",
