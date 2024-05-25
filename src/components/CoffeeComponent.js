@@ -82,6 +82,46 @@
     const HomeBrewBeansList= [
 
       {
+        beansName :"Luis Andres Caqueta, Colombia",
+        roaster:"Wolf Coffee, Queenstown, New Zealand",
+        altitude :"1800",
+        varietal : "Caturra, Castillo",
+        process:"Anaerobic Fermentation",
+        tastingnotes:"Mango, Passionfruit, Jasmine Honeysuckle, Maple Syrup",
+        personalremarks: "Bought from my trip to new zealand",
+        beanspicture:require('../images/Coffee/NewZealand/WolfCoffeeNewZealandColombia.webp')
+      }, 
+      {
+        beansName :"Aquiares Estate Esperanza, Turrialba, Costa Rica",
+        roaster:"Alchemist Coffee Singapore",
+        altitude :"",
+        varietal : "Esperanza",
+        process:"Natural",
+        tastingnotes:"Cherry, Strawberry, Hibiscus",
+        personalremarks: "",
+        beanspicture:require('../images/Coffee/AlchemistCostaRicaEsperanza.jpg')
+      }, 
+      {
+        beansName :"Riverdale Estate Peach, Shevaroy Hill, India",
+        roaster:"Dutch Colony",
+        altitude :"1450",
+        varietal : "SL9",
+        process:"Natural",
+        tastingnotes:"Sultana Biscuit, Fig, Orange, Dried Apricot",
+        personalremarks: "Buy 1 get 1 Dutch Colony Birthday Promo ",
+        beanspicture:require('../images/Coffee/DutchColonyIndia.webp')
+      }, 
+      {
+        beansName :"Cascarita Paraneima, Honduras",
+        roaster:"Dutch Colony",
+        altitude :"1210",
+        varietal : "Paraneima",
+        process:"Natural",
+        tastingnotes:"Rose Apple, Limeade, Dried Apricot",
+        personalremarks: "Buy 1 get 1 Dutch Colony Birthday Promo ",
+        beanspicture:require('../images/Coffee/DutchColonyHonduras.webp')
+      }, 
+      {
         beansName :"Ethiopia Mesina Muje",
         roaster:"Homeground Coffee Singapore",
         altitude :"",
@@ -93,7 +133,7 @@
       },
       {
         beansName :"Finca La Veraneras, Colombia",
-        roaster:"Homeground Coffee Singapore",
+        roaster:"Hydrangea Coffee Roaster, USA",
         altitude :"1750",
         varietal : "Sudan Rume",
         process :"Natural",
