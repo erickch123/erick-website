@@ -80,7 +80,18 @@
 
 
     const HomeBrewBeansList= [
+      {
+        beansName :"Adena Kampung Kenawat Serinen Gayo",
+        roaster:"People Temple Roastery, Indonesia",
+        altitude:"1200-1800",
+        varietal: "Typica Catimor",
+        process:"Anaerobic Fermentation",
+        tastingnotes:"Pineapple, Passionfruit, Sugarcane, Cacao Nibs",
+        personalremarks: "Bought during my holiday in Indonesia. This is one of the top Indonesia COE farms.",
+        beanspicture:require('../images/Coffee/Indonesia/PeopleTempleAcehKenawatAdena.jpg')
 
+
+      },
       {
         beansName :"Luis Andres Caqueta, Colombia",
         roaster:"Wolf Coffee, Queenstown, New Zealand",

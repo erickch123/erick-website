@@ -26,7 +26,7 @@ const AboutContent = [
   {
     logo: require('../images/stud.png'),
     header:"What I'm Doing Right now",
-    description: " I'm a fresh graduate from SUTD and currently spending my time to travel before my full time job starts.",
+    description: " I graduated in 2024 and currently working as an AI Software Engineering Researcher at SUTD. After graduation, I spent my time traveling to New Zealand, Brunei, backpacking to China, and hiking mountain in Indonesia.",
   },
   {
     logo: require('../images/person.png'),
@@ -41,12 +41,12 @@ const AboutContent = [
   {
     logo: require('../images/rocket.png'),
     header:"What I am aiming in the near future",
-    description: "Beside spending most of my time studying and interning part-time, I am trying to do freelance photography for couples, friends group, or people on vacation(dm me for more details :)). I also spend less time playing basketball so I can start gymming frequently. Sometimes, I do parttime barista at Tanamera Coffee Singapore as well.",
+    description: "Beside my fulltime job as a tech oriented person, I am trying to do freelance photography for couples, friends group, or people on vacation(dm me for more details :)).",
   },
   {
     logo: require('../images/workinprogress.png'),
     header:"Work in Progress for Website",
-    description: "I will have each dedicate page for promo code, sustainability, books I have read, basketball, library visit, writing, podcast, and maybe other stuff that I have been doing but I don't even remember.",
+    description: "I will have each dedicate page for my other passions such as basketball, sustainability library visit, writing, and maybe other stuff that I have been doing but I don't even remember.",
   },
   
 ]
