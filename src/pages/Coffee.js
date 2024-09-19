@@ -1,5 +1,5 @@
 import * as React from "react";
-import CoffeeComponent from "../components/CoffeeComponent";
+import CoffeeComponent from "../components/Coffee/CoffeeComponent";
 
 export default function Coffee() {
     return (
