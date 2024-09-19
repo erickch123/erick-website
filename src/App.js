@@ -15,6 +15,7 @@ import Leadership from './pages/Leadership';
 import Travel from './pages/Travel';
 import Books from './pages/Books';
 import Basketball from './pages/Basketball';
+import Sustainability from './pages/Sustainability';
 import 'flowbite/dist/flowbite.css';
 function App() {
   console.log("app is running")
@@ -35,6 +36,7 @@ function App() {
       <Route path="/travel" element={<Travel />} />
       <Route path="/books" element={<Books />} />
       <Route path="/basketball" element={<Basketball />} />
+      <Route path ="/sustainability" element={<Sustainability />} />
       
 
       
