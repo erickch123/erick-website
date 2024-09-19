@@ -4,8 +4,6 @@ export default function VentureCapital() {
     return (
         <section>
             <VentureCapitalBlock/>
-            
-
         </section>
 
 
