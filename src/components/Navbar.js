@@ -28,6 +28,10 @@ export default function Navbar() {
         linkref:"/leadership",
       },
       {
+        name:"Basketball",
+        linkref:"/basketball",
+      },
+      {
         name:"Coffee",
         linkref:"/coffee",
       },
@@ -37,7 +41,7 @@ export default function Navbar() {
       },
       {
         name:"Books",
-        linkref:"/Books",
+        linkref:"/books",
       },
       
       // {
