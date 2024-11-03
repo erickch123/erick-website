@@ -57,9 +57,7 @@ function App() {
       </div>
       
       <Footer/>
-      {/* <h1 className="text-3xl-green font-bold underline">
-        Hello world!
-      </h1>    */}
+     
 
     </div>
   );

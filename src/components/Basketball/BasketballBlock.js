@@ -26,7 +26,9 @@ export default function BasketballBlock() {
         <section className="overflow-hidden w-full h-screen">
             {/* Static Top Paragraph (30% height) */}
             <div className="h-[30%] flex items-center justify-center bg-gray-200 p-6">
-                <p className="text-center text-xl text-gray-800 font-poppins">{topParagraph}</p>
+            <p className="text-center text-2xl font-extrabold leading-8 tracking-tight text-gray-900 dark:text-white sm:leading-9">
+                    {topParagraph}
+                </p>
             </div>
 
             {/* Moving Images and Descriptions (70% height) */}
@@ -53,7 +55,9 @@ export default function BasketballBlock() {
                                 <img src={image} alt={`Basketball repeat ${index + 1}`} className="w-full h-full object-cover" />
                             </div>
                             <div className="h-1/3 flex items-center justify-center p-4 bg-gray-100">
-                                <p className="text-center text-gray-700 font-poppins">{descriptions[index]}</p>
+                            <p className="text-center text-lg font-bold leading-6 text-gray-900 dark:text-white">
+                                    {descriptions[index]}
+                                </p>
                             </div>
                         </div>
                     ))}

@@ -1,10 +1,4 @@
 import React from "react";
-const images = [
-  '../../images/Coffee/AsylumSidra.jpg',
-  '../../images/Coffee/AsylumSidra.jpg',
-  '../../images/Coffee/AsylumSidra.jpg',
-  '../../images/Coffee/AsylumSidra.jpg',
-];
 // import Dropdown from 'react-bootstrap-dropdown';
 export default function Navbar() {
 

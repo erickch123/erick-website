@@ -31,7 +31,7 @@ const AboutContent = [
   {
     logo: require('../images/Commons/person.png'),
     header:"What is this website about",
-    description: "  I want to express my ideas and projects that I have done. In general, I have a lot of activities apart from coding so what I am showcasing here includes school projects, personal projects, and other weird interests that can be found in the navbar",
+    description: "  I want to express my ideas and projects that I have done. I approach both my full-time job and hobbies with full dedication, which has led me to pursue various interests beyond coding, including photography, coffee brewing, basketball, volunteering or sustainability initiatives.",
   },
   {
     logo: require('../images/Commons/target.png'),
@@ -46,7 +46,7 @@ const AboutContent = [
   {
     logo: require('../images/Commons/workinprogress.png'),
     header:"Work in Progress for Website",
-    description: "I will have each dedicate page for my other passions such as basketball, sustainability library visit, writing, and maybe other stuff that I have been doing but I don't even remember.",
+    description: "I will have each dedicate page for my other passions such as basketball, sustainability, library visit, writing, and maybe other stuff that I have been doing but I don't even remember.",
   },
   
 ]

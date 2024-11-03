@@ -80,6 +80,53 @@
 
 
     const HomeBrewBeansList= [
+
+
+      {
+        beansName :"La Divisa Papayo Huila",
+        roaster:"Parchmen Coffee, Singapore",
+        altitude:"1850-2200",
+        varietal: "Papayo",
+        process:"Washed",
+        tastingnotes:"Lime,berries, Chrysanthemum",
+        personalremarks: "Bought it at Singapore Coffee Week 2024, very bergamot",
+        beanspicture:require('../../images/Coffee/ParchmenPapayoLaDivisa.webp')
+      },
+
+
+      {
+        beansName :"Ethiopia Yirgacheffe Konga Cooperative",
+        roaster:"Single Profile Coffee",
+        altitude:"1850-2200",
+        varietal: "Heirloom",
+        process:"Washed",
+        tastingnotes:"Bergamot, Stone Fruit,Black Tea",
+        personalremarks: "Bought it at Singapore Coffee Week 2024, very bergamot",
+        beanspicture:require('../../images/Coffee/SingleProfileCoffeeEthiopiaKonga.webp')
+      },
+     
+  
+        {
+          beansName :"Ethiopia Suke Quto",
+          roaster:"PPP Coffee, Singapore",
+          altitude:"1850-2200",
+          varietal: "Welicho and Kurume",
+          process:"Washed",
+          tastingnotes:"Peach, Earl Grey Tea, Citrus Finish",
+          personalremarks: "",
+          beanspicture:require('../../images/Coffee/PPPEthiopia-Suke-Quto.webp')
+        },
+        {
+          beansName :"Tanamera Coffee Premium Blend",
+          roaster:"Tanamera Coffee, Indonesia and Singapore",
+          altitude:"",
+          varietal: "Mixed",
+          process:"Mixed",
+          tastingnotes:"Sweet Fruits, Pear, Roasted Peanut, Lime Acidity, Pleasant Finish, Sweet Body",
+          personalremarks: "Place that I part time before, I like this espresso based beans for the sweetness",
+          beanspicture:require('../../images/Coffee/TanameraCoffeePremiumBlend.webp')
+        },
+
       {
         beansName :"Veracruz Santa Barbara",
         roaster:"Alchemist, Singapore",
@@ -513,6 +560,73 @@
     ];
 
     const CafeVisitBeansList= [
+
+         // Flask Coffee
+      // Uzbekistan Raspberry Coffee
+
+      {
+        beansName :"Alo Coffee Natural G1",
+        roaster:"Tiong Hoe, Singapore",
+        altitude :"1850",
+        varietal : "74158",
+        process :"96h natural fermentation",
+        tastingnotes :"Mangoes Muscat Graper Mulberries",
+        personalremarks: "From SG Coffee Neighborhood Cupping, damn nice also",
+        beanspicture:require('../../images/Coffee/TIongHoeAloCoffee.webp')
+      },
+
+      {
+        beansName :"Edison Argote Finca Quebraditas",
+        roaster:"Crankhouse Coffee,UK",
+        altitude :"1850",
+        varietal : "Sidra",
+        process :"Anaerobic Washed Inoculation",
+        tastingnotes :"Pink Lemonade, Honeysuckle, Turkish Delight",
+        personalremarks: "From SG Coffee Neighborhood Cupping, damn lychee the taste",
+        beanspicture:require('../../images/Coffee/Europe/CrankhouseUKSidraEdison.jpeg')
+      },
+      {
+        beansName :"Isabel Lopez Hernandez, Mexico",
+        roaster:"Falcon Coffee Exporter",
+        altitude :"",
+        varietal : "Marsellesa",
+        process :"Black Honey",
+        tastingnotes :"",
+        personalremarks: "From Beanvoyage x falcon x Community Coffee, damn sweet for honey",
+        beanspicture:require('../../images/Coffee/MexicoIsabelLopezFalconBeanVoyage.jpeg')
+      },
+
+      {
+        beansName :"Giant Pacamara",
+        roaster:"Forest Green Coffee,Colombia",
+        altitude :"1450",
+        varietal : "Pacamara",
+        process :"Natural Anaerobic",
+        tastingnotes :"Fruity and spicy profile with a mix of yellow fruits, Melon, and nutty flavors, creamy body, and deep aftertaste.",
+        personalremarks: "The beans really damn big haha",
+        beanspicture:require('../../images/Coffee/Colombia/ForestGreenGiantPacamara.webp')
+      },
+      {
+        beansName :"Fellows Exotic",
+        roaster:"Forest Green Coffee,Colombia",
+        altitude :"1700-2000",
+        varietal : "Pink Borbon",
+        process :"Natural Anaerobic",
+        tastingnotes :"Floral, tropical fruits, honey, citric acid, lemon & lime.",
+        personalremarks: "From a cupping session with Compound Coffee",
+        beanspicture:require('../../images/Coffee/Colombia/ForestGreenFellowsexoticssaco.webp')
+      },
+
+    {
+        beansName :"Aji Bourbon",
+        roaster:"Forest Green Coffee,Colombia",
+        altitude :"1550",
+        varietal : "Aji Borbon",
+        process :"Natural",
+        tastingnotes :"Sweet and Umami",
+        personalremarks: "From a cupping session with Compound Coffee",
+        beanspicture:require('../../images/Coffee/Colombia/ForestGreenAjiBorbon.webp')
+      },
       {
         beansName :"Chinese New Year Blend 2024",
         roaster:"Dutch Colony Singapore",

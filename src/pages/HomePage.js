@@ -48,14 +48,15 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-                     beansName ="Veracruz Santa Barbara"
-                     roaster="Alchemist, Singapore"
-                     altitude=""
-                     varietal= "Typica Catimor"
-                     process="Extended Washed"
-                     tastingnotes="Prune, Apricot Jam, Yellow Plum"
-                     personalremarks= "Need a good espresso beans, and one of the shop is close to my home lol"
-                     beanspicture={require('../images/Coffee/AlchemistVeracruz.jpg')}
+
+                  beansName ="La Divisa Papayo Huila"
+                  roaster="Parchmen Coffee, Singapore"
+                  altitude="1850-2200"
+                  varietal= "Papayo"
+                  process="Washed"
+                  tastingnotes="Lime,berries, Chrysanthemum"
+                  personalremarks= "Bought it at Singapore Coffee Week 2024, very bergamot"
+                  beanspicture={require('../images/Coffee/ParchmenPapayoLaDivisa.webp')}
 
               />
             </div>
