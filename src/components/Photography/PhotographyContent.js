@@ -1,3 +1,4 @@
+import React from 'react';
 export default function PhotographyContent(props) {
     const description = "     I don't have any other platform where I post my portfolio. I often shots scenery either city or nature, and a bit of portrait and product photography. I also offer freelance photography for family pictures or graduation so you guys can contact me via email!. Lately, my IG feeds are mostly travel pictures around Europe during my exchange in Sweden. I did budget traveling to 17 countries in total :)";
     const {
@@ -31,7 +32,7 @@ export default function PhotographyContent(props) {
             <p className="pb-10 text-justify font-bold">
                 {description}
             </p>
-
+            
         </div>
 
 
