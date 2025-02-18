@@ -9,7 +9,7 @@ export default function Photography() {
                 <Category />
            
             <PhotographyContent
-                image ={require("../images/Photography/igFeeds-8Nov23.jpg")}
+                image ={require("../images/Photography/instagramfeeds2025.png")}
                 logo ={require("../images/Photography/photog.png")}
                 />
 
