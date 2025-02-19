@@ -3,7 +3,7 @@ export default function CoffeeHeader(props){
         header,description
     } = props;
     return(
-        <div className="">
+        <div className="pt-11">
           <p className = "text-center pt-6 my-10 mx-10 text-4xl ">
             <b>{header}</b>
           </p>

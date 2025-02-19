@@ -4,7 +4,7 @@ import BooksGrid from './BooksGrid'
 export default function BooksComponent() {
  
   return (
-    <div className="flex flex-col rounded-lg">
+    <div className="flex flex-col rounded-lg pt-12">
        {BooksList.map((books)=>{
           const{title,writer,page,quotes,pict,shortSummary,howDiscovered,oneLinerDescription} = books;
           return(

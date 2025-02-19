@@ -25,8 +25,8 @@ export default function BasketballBlock() {
     return (
         <section className="overflow-hidden w-full h-screen">
             {/* Static Top Paragraph (30% height) */}
-            <div className="h-[30%] flex items-center justify-center bg-gray-200 p-6">
-            <p className="text-center text-2xl font-extrabold leading-8 tracking-tight text-gray-900 dark:text-white sm:leading-9">
+            <div className="h-[30%] flex items-center justify-center bg-white px-6 pt-11">
+            <p className="text-center text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-white sm:leading-9">
                     {topParagraph}
                 </p>
             </div>

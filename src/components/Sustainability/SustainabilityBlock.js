@@ -59,9 +59,9 @@ export default function SustainabilityBlock() {
     };
 
     return (
-        <div className="relative p-4 bg-white dark:bg-gray-800">
+        <div className="relative p-4 bg-white dark:bg-gray-800 ">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
-                <div className="lg:col-start-2 md:pl-20 mt-10">
+                <div className="lg:col-start-2 md:pl-20 mt-10 pt-11">
                     <h4 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-white sm:leading-9">
                     While I may not be the most sustainable person, I’m trying to make a difference
                     </h4>

@@ -9,7 +9,7 @@ export default function FullBlock(props) {
 
     return (
         <div className="container flex lg:pl-10 pt-5 lg:flex-row flex-col items-center">
-            <div className=" lg:mx-10  w-[300px] shrink-0 lg:mb-16   text-center">
+            <div className=" lg:mx-10  w-[300px] shrink-0 lg:mb-16   text-center pt-12">
                 <img className="w-16 mx-auto" src={logo} />
                 
                 <h1 className="pb-10 text-4xl">
