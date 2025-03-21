@@ -81,15 +81,37 @@
 
     const HomeBrewBeansList= [
       {
-            beansName :"Temanggung, Central Java",
-            roaster:"Strada Coffee, Indonesia",
-            altitude:"1500-1600",
-            varietal: "Kartika, Lini S, Typica",
-            process:"Experimental",
-            tastingnotes:"Peach, Bubblegum, Caramel",
-            personalremarks: "Bought it at during 2025 Indonesia Barista/Brewer Championship exhibition. Just nice happened when I came back to Indonesia for CNY",
-            beanspicture:require('../../images/Coffee/Indonesia/StradaJavaTemanggung.jpeg')
-      },
+        beansName :"Gachala Blend",
+        roaster:"Tiong Hoe, Singapore",
+        altitude:"",
+        varietal: "",
+        process:"",
+        tastingnotes:"Gula Melaka, Stonefruits, Berries",
+        personalremarks: "Good Enough for Expresso",
+        beanspicture:require('../../images/Coffee/TiongHoeHouseBlend.webp')
+  },
+      {
+        beansName :"Temanggung, Central Java",
+        roaster:"Strada Coffee, Indonesia",
+        altitude:"1500-1600",
+        varietal: "Kartika, Lini S, Typica",
+        process:"Experimental",
+        tastingnotes:"Peach, Bubblegum, Caramel",
+        personalremarks: "Bought it at during 2025 Indonesia Barista/Brewer Championship exhibition. Just nice happened when I came back to Indonesia for CNY",
+        beanspicture:require('../../images/Coffee/Indonesia/StradaJavaTemanggung.jpeg')
+  },
+     
+      {
+        beansName :"Yunnan Chiliarch Estate Ou Yang Natural,China",
+        roaster:"Small Wave, Singapore",
+        altitude:"900-1300",
+        varietal: "Catimor",
+        process:"Natural",
+        tastingnotes:"Strawberry, Blackberry, Pine Nuts, Roasted Almonds, Pink Florals",
+        personalremarks: "Bought it during Singapore Coffee Week 2024, very sweet",
+        beanspicture:require('../../images/Coffee/SmallWavesChinaYUnnan.webp')
+       
+  },
       {
         beansName :"La Divisa Papayo Huila",
         roaster:"Parchmen Coffee, Singapore",

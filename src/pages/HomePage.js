@@ -49,16 +49,16 @@ const HomePage = () => {
               </a>
               <CoffeeGridBoxes
 
-                  beansName ="Temanggung, Central Java"
-                  roaster="Strada Coffee, Indonesia"
-                  altitude="1500-1600"
-                  varietal= "Kartika, Lini S, Typica"
-                  process="Experimental"
-                  tastingnotes="Peach, Bubblegum, Caramel"
-                  personalremarks= "Bought it at during 2025 Indonesia Barista/Brewer Championship exhibition. Just nice happened when I came back to Indonesia for CNY"
-                  beanspicture={require('../images/Coffee/Indonesia/StradaJavaTemanggung.jpeg')}
+                  beansName ="Gachala Blend"
+                  roaster="Tiong Hoe, Singapore"
+                  altitude=""
+                  varietal= ""
+                  process=""
+                  tastingnotes="Gula Melaka, Stonefruits, Berries"
+                  personalremarks= "Good Enough for Expresso"
+                  beanspicture={require('..//images/Coffee/TiongHoeHouseBlend.webp')}
 
-              />
+/>
             </div>
           </div>
 
