@@ -35,10 +35,10 @@ const HomePage = () => {
                 Books I'm Currently Reading
               </a>
               <BooksHome
-                title="How I Built This"
-                writer="Guy Raz"
+                title="The Art of Thinking Clearly"
+                writer="Rolf  Dobelli"
                 pages="320"
-                pict={require("../images/Books/howIbuiltthis.jpg")}
+                pict={require("../images/Books/theartofthinkingclearly.jpeg")}
               />
             </div>
           </div>
@@ -48,17 +48,15 @@ const HomePage = () => {
                 Coffee I'm Currently Brewing
               </a>
               <CoffeeGridBoxes
-
-                  beansName ="Gachala Blend"
-                  roaster="Tiong Hoe, Singapore"
-                  altitude=""
-                  varietal= ""
-                  process=""
-                  tastingnotes="Gula Melaka, Stonefruits, Berries"
-                  personalremarks= "Good Enough for Expresso"
-                  beanspicture={require('..//images/Coffee/TiongHoeHouseBlend.webp')}
-
-/>
+                  beansName ="Colombia Risaralda Finca Milan Logan #186"
+                  roaster="Urban Coffee Roasters, Hongkong"
+                  altitude="1750"
+                  varietal= "Castillo and Caturra"
+                  process="Carbonic Maceration with Lactobacillus Washed"
+                  tastingnotes="Vanilla, Blackcurrant candy, Mayonnaise"
+                  personalremarks= "Bought it from my Hongkong Conference Trip,very sweet"
+                  beanspicture= {require('../images/Coffee/Hongkong/UrbanFincaMilan.webp')}
+                  />
             </div>
           </div>
 

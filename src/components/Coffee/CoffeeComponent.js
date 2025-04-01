@@ -81,6 +81,16 @@
 
     const HomeBrewBeansList= [
       {
+        beansName :"Colombia Risaralda Finca Milan Logan #186",
+        roaster:"Urban Coffee Roasters, Hongkong",
+        altitude:"1750",
+        varietal: "Castillo and Caturra",
+        process:"Carbonic Maceration with Lactobacillus Washed",
+        tastingnotes:"Vanilla, Blackcurrant candy, Mayonnaise",
+        personalremarks: "Bought it from my Hongkong Conference Trip,very sweet",
+        beanspicture:require('../../images/Coffee/Hongkong/UrbanFincaMilan.webp')
+  },
+      {
         beansName :"Gachala Blend",
         roaster:"Tiong Hoe, Singapore",
         altitude:"",
