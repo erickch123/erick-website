@@ -1,6 +1,6 @@
 import * as React from "react";
 // import { useState, useEffect, useContext} from "react";
-import profilepic from "../images/Commons/profileWaerebo.heic"
+import profilepic from "../images/Commons/profileBali.heic"
 
 import CoffeeGridBoxes from "../components/Coffee/CoffeeGridBoxes"
 import BooksHome from "../components/Books/BooksHome"
