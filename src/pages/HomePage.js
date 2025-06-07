@@ -1,6 +1,6 @@
 import * as React from "react";
 // import { useState, useEffect, useContext} from "react";
-import profilepic from "../images/Photography/profilephoto2.jpeg"
+import profilepic from "../images/Commons/profileWaerebo.heic"
 
 import CoffeeGridBoxes from "../components/Coffee/CoffeeGridBoxes"
 import BooksHome from "../components/Books/BooksHome"
@@ -37,7 +37,7 @@ const HomePage = () => {
               <BooksHome
                 title="The Art of Thinking Clearly"
                 writer="Rolf  Dobelli"
-                pages="320"
+                pages="326"
                 pict={require("../images/Books/theartofthinkingclearly.jpeg")}
               />
             </div>
