@@ -27,21 +27,9 @@ const HomePage = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto flex px-10 py-5 lg:flex-row flex-col items-center ">
+      {/* <div className="container mx-auto flex px-10 py-5 lg:flex-row flex-col items-center ">
         <div className="flex justify-center content-center flex-col md:flex-row ">
-          <div className="flex-col content-center ml-6">
-            <div className=" pt-5 w-80 content-center text-center">
-              <a className=" inline-flex w-full  text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg text-center">
-                Books I'm Currently Reading
-              </a>
-              <BooksHome
-                title="The Art of Thinking Clearly"
-                writer="Rolf  Dobelli"
-                pages="326"
-                pict={require("../images/Books/theartofthinkingclearly.jpeg")}
-              />
-            </div>
-          </div>
+          
           <div className="flex-col content-center ml-6">
             <div className=" pt-5 w-80 content-center text-center">
               <a className=" inline-flex w-full  text-white bg-teal-400 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg ">
@@ -62,7 +50,49 @@ const HomePage = () => {
 
         </div>
 
-      </div>
+      </div> */}
+        <div className="container mx-auto flex px-10 py-5">
+          <div className="flex flex-col md:flex-row  items-start gap-8 w-full">
+            <div className="flex flex-col items-center w-80">
+              <div className="pt-5 w-full text-center">
+                <button
+                  type="button"
+                  className="inline-flex w-full text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg text-center"
+                  disabled
+                  aria-disabled="true"
+                >
+                  Books I'm Currently Reading
+                </button>
+                <BooksHome
+                  title="Think Like a Rocket Scientist"
+                  writer="Ozan Varol"
+                  pages="326"
+                  pict="https://storage.googleapis.com/erc-photos/books/thinklikearocketscientist.jpg"
+                />
+              </div>
+            </div>
+            <div className="flex flex-col items-center w-80">
+              <div className="pt-5 w-full text-center">
+                <a className="inline-flex w-full text-white bg-teal-400 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 hover:text-white rounded text-lg">
+                  Coffee I'm Currently Brewing
+                </a>
+                <CoffeeGridBoxes
+
+                          
+                  beansName ="West Java Wanoja,Indonesia"
+                  roaster="Ultra Coffee, Surabaya, Indonesia"
+                  altitude="1500"
+                  varietal= "Lini-s"
+                  process="Carbonic Maceration natural"
+                  tastingnotes="Cherry ,tropical fruits, chocolate"
+                  personalremarks= "Bought it back from my World of Coffee 2025 Jakarta trip"
+                  beanspicture= "https://storage.googleapis.com/erc-photos/coffee/home-brew/UltraCoffeeJavaWanoja.jpg"
+
+                />
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
   );
 }

@@ -80,6 +80,17 @@
 
 
     const HomeBrewBeansList= [
+ {
+        beansName :"West Java Wanoja,Indonesia",
+        roaster:"Ultra Coffee, Surabaya, Indonesia",
+        altitude:"1500",
+        varietal: "Lini-s",
+        process:"Carbonic Maceration natural",
+        tastingnotes:"Cherry ,tropical fruits, chocolate",
+        personalremarks: "Bought it back from my World of Coffee 2025 Jakarta trip",
+        beanspicture: "https://storage.googleapis.com/erc-photos/coffee/home-brew/UltraCoffeeJavaWanoja.jpg"
+  },
+     
       {
         beansName :"Colombia Risaralda Finca Milan Logan #186",
         roaster:"Urban Coffee Roasters, Hongkong",
@@ -109,6 +120,16 @@
         tastingnotes:"Peach, Bubblegum, Caramel",
         personalremarks: "Bought it at during 2025 Indonesia Barista/Brewer Championship exhibition. Just nice happened when I came back to Indonesia for CNY",
         beanspicture:require('../../images/Coffee/Indonesia/StradaJavaTemanggung.jpeg')
+  },
+  {
+        beansName :"Moonstone, Chiang Mai Thailand",
+        roaster:"Nana Coffee, Bangkok, Thailand",
+        altitude:"1300",
+        varietal: "Mixed",
+        process:"Experimental multi-cultured innoculated yeast",
+        tastingnotes:"Lychee, Rose, candy",
+        personalremarks: "taste like peach/lychee, my bro brought the beans back from his trip to Thailand",
+        beanspicture:' https://storage.googleapis.com/erc-photos/coffee/cupping/NanaCoffeeMoonstone.webp'
   },
      
       {
@@ -601,8 +622,131 @@
 
     const CafeVisitBeansList= [
 
-         // Flask Coffee
-      // Uzbekistan Raspberry Coffee
+         // MisingFlask Coffee\
+        //  Uzbekistan
+         {
+        beansName :"Carlos Vergara, Chiroso Magic",
+        roaster:"Tanat(Kawa) Roastery France",
+        altitude :"",
+        varietal : "Chiroso",
+        process :"Thermal Shock washed",
+        tastingnotes :"Vanila, Raspberry, Violet",
+        personalremarks: "Nicest beans from SG coffee neighbourhood public cupping session June 2025.",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/PeopleTempleYunnan.jpg"
+      },
+        {
+        beansName :"Colombia El Elcanto",
+        roaster:"Skill Issue Coffee, Singapore",
+        altitude :"1700",
+        varietal : "Papayo",
+        process :"Multiferment washed",
+        tastingnotes :"Blueberry, Concord Grapes, Pink Guava",
+        personalremarks: "Very sweet bluberry like beans from SG coffee neighbourhood public cupping session June 2025.",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/SGCN_papayo.jpeg"
+      },
+      {
+        beansName :"Carlos Vergara, Chiroso Magic",
+        roaster:"Tanat(Kawa) Roastery France",
+        altitude :"",
+        varietal : "Chiroso",
+        process :"Thermal Shock washed",
+        tastingnotes :"Vanila, Raspberry, Violet",
+        personalremarks: "Nicest beans from SG coffee neighbourhood public cupping session June 2025.",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/SGCN_chiroso.jpeg"
+      },
+         {
+        beansName :"Yunnan People Temple Sidra",
+        roaster:"People Temple, Jakarta, Indonesia",
+        altitude :"",
+        varietal : "Catimor",
+        process :"Anerobic Yeast Natural",
+        tastingnotes :"Pomegranate, rose, cranberry",
+        personalremarks: "Very sweet and floral like rose and peach, tried during World of Coffee 2025 Jakarta",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/PeopleTempleYunnan.jpg"
+      },
+        {
+        beansName :"Las Flores Huila Colombia",
+        roaster:"Miss Coco",
+        altitude :"1700-1780",
+        varietal : "Sidra",
+        process :"Anerobic Washed",
+        tastingnotes :"Lychee, Molasses, Orange, Lemongrass & Rose Honey",
+        personalremarks: "Very sweet lychee, tried during World of Coffee 2025 Jakarta",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/MrWushWushsidraBourbon.jpeg"
+      },
+     
+      {
+        beansName :"Edinson Argote,Tipica Mejorado Huila Colombia",
+        roaster:"Mr Wush Wush",
+        altitude :"1780-1900",
+        varietal : "Typica Mejorado",
+        process :"Washed",
+        tastingnotes :"vanilla, pineapple, caramel, miel",
+        personalremarks: "Taste like corn sweetness & umami, tried during World of Coffee 2025 Jakarta",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/MrWushWushTypicaMezorado.jpeg"
+      },
+      {
+        beansName :"Edinson Argote,Papayo Huila Colombia",
+        roaster:"Mr Wush Wush",
+        altitude :"1780-1900",
+        varietal : "Papayo",
+        process :"Natural",
+        tastingnotes :"Banano, Caramelo, Chocolate, Mango",
+        personalremarks: "Very sweet like mango, tried during World of Coffee 2025 Jakarta",
+        beanspicture:" https://storage.googleapis.com/erc-photos/coffee/cupping/MRWUSHWUSHPAPAYO.webp"
+      },
+        {
+        beansName :"Las Flores Ombligon Jhoan Vergara",
+        roaster:"Mr Wush Wush",
+        altitude :"1780-1900",
+        varietal : "Ombligon",
+        process :"Natural",
+        tastingnotes :"Arándanos, Chocolate blanco, Nuez Moscada, Vainilla",
+        personalremarks: "Very sweet like blueberry gum, tried during World of Coffee 2025 Jakarta",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/MRWUSHWUSHombligon.webp"
+      },
+
+{
+        beansName :"Pacamara Cold Brew",
+        roaster:"Coffee Myungga Korea",
+        altitude :"1780-1900",
+        varietal : "Pacamara",
+        process :"-",
+        tastingnotes :"Strawberry, raspberry, sweet, fruity, and complex.",
+        personalremarks: "Very sweet cold brew like strawberry, tried during World of Coffee 2025 Jakarta",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/CoffeeMyunggaPacamara.jpg"
+      },
+       {
+        beansName :"Nestor Lasso, Huila, Colombia",
+        roaster:"Lohas Beans",
+        altitude :"1780-1900",
+        varietal : "Aji Bourbon",
+        process :"Natural",
+        tastingnotes :"Floral, lavender, passion fruit, apricot, citrus, slight spice, sweet and complex.",
+        personalremarks: "Taste damn sweet and tropical, tried during World of Coffee 2025 Jakarta",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/LohasBeansAjiBourbon.jpeg"
+      },
+        {
+        beansName :"Jhoan Vergara, Huila, Colombia",
+        roaster:"Lohas Beans",
+        altitude :"1780-1900",
+        varietal : "Chiroso",
+        process :"Hydrohoney",
+        tastingnotes :"Floral, rose, strawberries, cherry, bright acidity and sweet.",
+        personalremarks: "Taste damn sweet like gum, tried during World of Coffee 2025 Jakarta",
+        beanspicture:" https://storage.googleapis.com/erc-photos/coffee/cupping/LohasChiroso.jpeg"
+      },
+      {
+        beansName :"Janson Lot 411, Panama",
+        roaster:"The Kopi Times, Singapore",
+        altitude :"",
+        varietal : "Gesha",
+        process :"72H overripe washed",
+        tastingnotes :"Mandarin, Jasine, Green Tea",
+        personalremarks: "really taste like jasmine from SG coffee neighbourhood public cupping session March 2025.",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/SGCN_jansonJasmine.jpg"
+      },
+      
 
       {
         beansName :"Alo Coffee Natural G1",
@@ -677,6 +821,39 @@
         personalremarks: "Really taste like orange",
         beanspicture:require('../../images/Coffee/DutchColonyCNY2024Coffee.webp')
       },
+     
+       {
+        beansName :"Pacamara Jonathan Gasca, Huila, Colombia",
+        roaster:"Lohas Beans",
+        altitude :"1550-1800",
+        varietal : "Pacamara",
+        process :"Washed",
+        tastingnotes :"mango, starfruit",
+        personalremarks: "Taste damn sweet like mango, very rare for washed coffee to be this sweet, tried during Lohas Beans x Omaafe Free Cupping Session",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/Lohas2024_HUilawashed.jpg"
+      },
+
+       {
+        beansName :"Pacamara Jonathan Gasca, Huila, Colombia",
+        roaster:"Lohas Beans",
+        altitude :"1550-1800",
+        varietal : "Pacamara",
+        process :"Natural",
+        tastingnotes :"Floral and aromatic, tropical fruit, kiwi, pineapple, brilliant acidity, juicy and long residual",
+        personalremarks: "Taste damn sweet, tried during Lohas Beans x Omaafe Free Cupping Session",
+        beanspicture:"https://storage.googleapis.com/erc-photos/coffee/cupping/3Pacamara_Tropical.webp.png"
+      },
+      {
+        beansName :"Adrian Lasso, Colombia",
+        roaster:"Lohas Beans",
+        altitude :"1780-1900",
+        varietal : "Sidra",
+        process :"Natural",
+        tastingnotes :"Floral, lemongrass, jasmin, cherries, berries, blood orange, juicy, creamy body",
+        personalremarks: "Taste damn sweet like blueberry, tried during Lohas Beans x Omaafe Free Cupping Session",
+        beanspicture:" https://storage.googleapis.com/erc-photos/coffee/cupping/LohasBeansSidra.jpeg"
+      },
+     
 
       {
         beansName :"Taiwan COE#16 Melastoma Coffee Estate, Chiayi, Alishan",
