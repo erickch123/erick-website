@@ -14,9 +14,9 @@ const HomePage = () => {
             Hi, I'm Erick Chandra.
           </p>
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-            <br className="hidden lg:inline-block " />A Computer Science Student Fresh Graduate from SUTD, focusing in Artificial Intelligence, Software Engineering and Fintech. I am currently working as a Researcher in AI Software Development.
+            <br className="hidden lg:inline-block " />A tech professional based in Singapore, with expertise in software engineering, artificial intelligence, and data; SUTD Computer Science Class of 2024.
           </h1>
-          <p className="mb-8 leading-relaxed text-justify"> My experience leans towards <b>Backend Software Engineering, Artificial Intelligence</b> and a bit of <b>Frontend Development</b>. During my free time, I enjoy watching, reading, or listening to podcasts about <b>startups</b>, <b>technology</b>, and inspirational figures. This has sparked my interest in becoming a <b>Venture Capitalist</b> one day. I also have a passion for <b>photography</b>, brewing <b>specialty coffee</b>, playing <b>basketball</b>, cooking, visiting libraries or exhibitions, and participating in <b>leadership</b> events. Occasionally, I upcycle waste for personal <b>sustainability</b> projects.
+          <p className="mb-8 leading-relaxed text-justify">During my free time, I enjoy watching, reading, or listening to podcasts about <b>startups</b>, <b>technology</b>, and inspirational figures. This has sparked my interest in becoming a <b>Venture Capitalist</b> one day. I also have a passion for <b>photography</b>, brewing <b>specialty coffee</b>, playing <b>basketball</b>, cooking, visiting libraries or exhibitions, and participating in <b>leadership</b> events. Occasionally, I upcycle waste for personal <b>sustainability</b> projects.
           </p>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -79,14 +79,14 @@ const HomePage = () => {
                 <CoffeeGridBoxes
 
                           
-                  beansName ="West Java Wanoja,Indonesia"
-                  roaster="Ultra Coffee, Surabaya, Indonesia"
-                  altitude="1500"
-                  varietal= "Lini-s"
-                  process="Carbonic Maceration natural"
-                  tastingnotes="Cherry ,tropical fruits, chocolate"
-                  personalremarks= "Bought it back from my World of Coffee 2025 Jakarta trip"
-                  beanspicture= "https://storage.googleapis.com/erc-photos/coffee/home-brew/UltraCoffeeJavaWanoja.jpg"
+                  beansName ="ATY ZARKEIWIN"
+                  roaster="People Coffee, Wellington, New Zealand"
+                  altitude="NA"
+                  varietal= "Mixed"
+                  process="NA"
+                  tastingnotes="orange, peach, red apple and grape."
+                  personalremarks= "My bro bought it from New Zealand"
+                  beanspicture= "https://storage.googleapis.com/erc-photos/coffee/home-brew/NewZealandPeopleCoffeeAty.webp"
 
                 />
               </div>

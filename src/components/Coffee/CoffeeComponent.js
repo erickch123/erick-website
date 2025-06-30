@@ -80,6 +80,16 @@
 
 
     const HomeBrewBeansList= [
+      {
+      beansName :"ATY ZARKEIWIN",
+      roaster:"People Coffee, Wellington, New Zealand",
+      altitude:"NA",
+      varietal: "Mixed",
+      process:"NA",
+      tastingnotes:"orange, peach, red apple and grape.",
+      personalremarks: "My bro bought it from New Zealand",
+      beanspicture: "https://storage.googleapis.com/erc-photos/coffee/home-brew/NewZealandPeopleCoffeeAty.webp"
+    },
  {
         beansName :"West Java Wanoja,Indonesia",
         roaster:"Ultra Coffee, Surabaya, Indonesia",

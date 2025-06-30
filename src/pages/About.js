@@ -26,7 +26,7 @@ const AboutContent = [
   {
     logo: require('../images/Commons/stud.png'),
     header:"What I'm Doing Right now",
-    description: " I graduated in 2024 and currently working as an AI Software Developer Researcher at SUTD.",
+    description: " I am working at Climate Action Data Trust (CADTrust) and the role is a combination of data engineering and product management.",
   },
   {
     logo: require('../images/Commons/person.png'),
@@ -41,12 +41,12 @@ const AboutContent = [
   {
     logo: require('../images/Commons/rocket.png'),
     header:"What I am aiming in the near future",
-    description: "Beside my fulltime job as a tech oriented person, I am trying to do freelance photography for couples, friends group, or people on vacation(dm me for more details :)).",
+    description: "Beside my fulltime job as a tech oriented person, I am also starting my carbon credit project at a coffee farm in Indonesia, as well as doing freelance photography for couples, friends group, or people on vacation(dm me for more details :)).",
   },
   {
     logo: require('../images/Commons/workinprogress.png'),
     header:"Work in Progress for Website",
-    description: "I will have each dedicate page for my other passions such as basketball, sustainability, library visit, writing, and maybe other stuff that I have been doing but I don't even remember.",
+    description: "I will have more in depth details about book reviews, more software engineering documentations, better website interface.",
   },
   
 ]
