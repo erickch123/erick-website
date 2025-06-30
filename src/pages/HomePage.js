@@ -1,6 +1,6 @@
 import * as React from "react";
 // import { useState, useEffect, useContext} from "react";
-import profilepic from "../images/Commons/profileBali.heic"
+// import profilepic from "https://storage.googleapis.com/erc-photos/home/profileBali.jpg"
 
 import CoffeeGridBoxes from "../components/Coffee/CoffeeGridBoxes"
 import BooksHome from "../components/Books/BooksHome"
@@ -23,7 +23,7 @@ const HomePage = () => {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src={profilepic}
+            src="https://storage.googleapis.com/erc-photos/home/profileBali.jpg"
           />
         </div>
       </div>
