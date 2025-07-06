@@ -104,20 +104,34 @@ const OutsideProjectDetails = [
 ]
 const PersonalProjectDetails = [
     {
+        "title": "Personal Time Management Analytics",
+        "description": "Self-tracking data collection project spanning university final year (both semesters) and working adult life. Analyzed personal time allocation, productivity patterns, sleep schedules, work hours, and side project commitments to become the data scientist of my own life.",
+        "contribution": "Tech stack is python and pandas"
+     },
+     
+     {
+        "title": "Landing Page: Indocoffee Carbon Credit Projects", 
+        "description": "Passion project developing carbon credit initiatives for Indonesian coffee farms. Built custom landing page with Next.js and deployed on Vercel, leveraging Cursor AI for rapid frontend development."
+     },
+
+    {
+        title: "Intentional Instagram App",
+        description: "I built this web application to address my need for limiting Instagram usage by narrowing down the topics I see on my feed. The app categorises followings based on selected topics and is designed to help users focus on specific content. Future plans include adding a scheduling feature for better content organization.",
+        contribution: "The website is built using React, Express, Tailwind CSS, and MongoDB. External services used are RapidAPI, Facebook and Goole OAUTH."
+    },
+    {
         title: "This Website",
         description: "As mentioned, this website is for me to showcase what I've done, not only in software engineering projects but my other hobbies as well. And one more thing, I still prefer backend compared to frontend 😀.",
         contribution: "The website is built with React Js Framework and Tailwind CSS."
     },
-    {
-        title: "Intentional Instagram App",
-        description: "I built this web application to address my need for limiting Instagram usage by narrowing down the topics I see on my feed. The app categorises followings based on selected topics and is designed to help users focus on specific content. Future plans include adding a scheduling feature for better content organization.",
-        contribution: "The website is built using React, Express, Tailwind CSS, and MongoDB."
-    },
+    
     {
         title: "Web Scraping",
         description: "My First ever attemp of coding project outside of school during my Term 2 in university.",
         contribution: "I used a Python library called Beautiful Soup to scrap list of software engineer jobs hiring into a csv file."
     },
+
+
 
 ]
 
@@ -136,9 +150,14 @@ const InternshipDetails = [
 
 const FullTimerJobDetails = [
     {
+        title: "Product & Data at Climate Action Data Trust",
+        description: "Returned as a full-timer where I had 1 year of internship experience (full-time + part-time). Focused on data engineering, developing ETL pipelines, cloud setup, managing data dashboards, and developing GenAI proof of concepts for continuous improvement and maintenance.",
+        contribution: "Code with Python, Typescript, Chia Blockchain"
+    },
+    {
         title: "AI Software Developer & Research Officer at SUTD",
-        description: "I developed a Visual Studio Code extension that integrates Large Language Models (LLMs), such as OpenAI's ChatGPT, to serve as a code assistant tailored for novice programmers.",
-        contribution: "The tech stack are Express, Typescript, MongoDB, Langchain, and Svelte."
+        description: "Developed a VS Code extension integrating LLMs (ChatGPT, Claude) as a code assistant for novice programmers. Focused on promoting debugging skills over vibe coding, enhanced with Retrieval Augmented Generation (RAG) for better code solutions. Conducted user testing with > 60 first-year programming students. Co-authored 3 research papers.",
+        contribution: "Tech Stack: Express, TypeScript, MongoDB, LangChain, Svelte, Deployment: Heroku backend, VS Code Marketplace"
     },
 ]
 
