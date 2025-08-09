@@ -78,8 +78,27 @@
 
     }
 
-
     const HomeBrewBeansList= [
+      {
+      beansName :"Semendo, South Sumatra Indonesia",
+      roaster:"Rumah Sangrai Bloom, Jakarta, Indonesia",
+      altitude:"1600-1650",
+      varietal: "",
+      process:"Natural",
+      tastingnotes:"orange,grapes, milk chocolate.",
+      personalremarks: "Very sweet and aromatic",
+      beanspicture: "https://storage.googleapis.com/erc-photos/coffee/home-brew/RumahSangraiBloomSemendo.jpeg"
+    },
+    {
+      beansName :"White Rabbit espresso",
+      roaster:"Rumah Sangrai Bloom, Jakarta, Indonesia",
+      altitude:"1600-1650",
+      varietal: "mixed",
+      process:"Natural",
+      tastingnotes:" sour sop, rasphberry candy, strawberry milk, hint of jackfruit",
+      personalremarks: "I like the floral notes, very low bitterness, and sweet lingering finish",
+      beanspicture: "https://storage.googleapis.com/erc-photos/coffee/home-brew/RumahSangraiBloomEspressoWhiteRabbitBlend.jpeg"
+    },
       {
       beansName :"ATY ZARKEIWIN",
       roaster:"People Coffee, Wellington, New Zealand",

@@ -16,7 +16,7 @@ const HomePage = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             <br className="hidden lg:inline-block " />A tech professional based in Singapore, with expertise in software engineering, artificial intelligence, and data; SUTD Computer Science Class of 2024.
           </h1>
-          <p className="mb-8 leading-relaxed text-justify">During my free time, I enjoy watching, reading, or listening to podcasts about <b>startups</b>, <b>technology</b>, and inspirational figures. This has sparked my interest in becoming a <b>Venture Capitalist</b> one day. I also have a passion for <b>photography</b>, brewing <b>specialty coffee</b>, playing <b>basketball</b>, cooking, visiting libraries or exhibitions, and participating in <b>leadership</b> events. Occasionally, I upcycle waste for personal <b>sustainability</b> projects.
+          <p className="mb-8 leading-relaxed text-justify">During weekdays evening and weekends, I enjoy spending time on learning and creating side projects across multidisplicinary topics. I also have a deep passion for <b>photography</b>, brewing <b>specialty coffee</b>, personal investing, playing <b>basketball</b>, cooking, visiting libraries or exhibitions. Occasionally, I upcycle waste for personal <b>sustainability</b> projects.
           </p>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -78,15 +78,16 @@ const HomePage = () => {
                 </a>
                 <CoffeeGridBoxes
 
+                  beansName ="Semendo, South Sumatra Indonesia"
+                  roaster="Rumah Sangrai Bloom, Jakarta, Indonesia"
+                  altitude="1600-1650"
+                  varietal=""
+                  process="Natural"
+                  tastingnotes="orange,grapes, milk chocolate."
+                  personalremarks= "Very sweet and aromatic"
+                  beanspicture= "https://storage.googleapis.com/erc-photos/coffee/home-brew/RumahSangraiBloomSemendo.jpeg"
                           
-                  beansName ="ATY ZARKEIWIN"
-                  roaster="People Coffee, Wellington, New Zealand"
-                  altitude="NA"
-                  varietal= "Mixed"
-                  process="NA"
-                  tastingnotes="orange, peach, red apple and grape."
-                  personalremarks= "My bro bought it from New Zealand"
-                  beanspicture= "https://storage.googleapis.com/erc-photos/coffee/home-brew/NewZealandPeopleCoffeeAty.webp"
+                  
 
                 />
               </div>

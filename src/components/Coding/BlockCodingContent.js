@@ -3,6 +3,7 @@ export default function BlockCodingContent(props) {
         title,
         description,
         contribution,
+        link,
     } = props
 
 
@@ -17,8 +18,23 @@ export default function BlockCodingContent(props) {
             <p className="pb-10 text-justify">
                 {contribution}
             </p>
+             {link && (
+                <span>
+                    The relevant link can be found
+                    <a 
+                        href={link} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-800 underline ml-1"
+                    >
+                        here
+                    </a>
+                </span>
+            )}
         </div>
 
 
     );
+
+              
 }

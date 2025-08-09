@@ -111,13 +111,15 @@ const PersonalProjectDetails = [
      
      {
         "title": "Landing Page: Indocoffee Carbon Credit Projects", 
-        "description": "Passion project developing carbon credit initiatives for Indonesian coffee farms. Built custom landing page with Next.js and deployed on Vercel, leveraging Cursor AI for rapid frontend development."
-     },
+        "description": "Passion project developing carbon credit initiatives for Indonesian coffee farms. As a software engineer by training, I code the landing page although it's a simple landing page.",
+        "contribution": "Tech stack is Next.js, Vercel",
+        "link": "https://indocoffee-carbon-credit.vercel.app/"},
 
     {
         title: "Intentional Instagram App",
         description: "I built this web application to address my need for limiting Instagram usage by narrowing down the topics I see on my feed. The app categorises followings based on selected topics and is designed to help users focus on specific content. Future plans include adding a scheduling feature for better content organization.",
-        contribution: "The website is built using React, Express, Tailwind CSS, and MongoDB. External services used are RapidAPI, Facebook and Goole OAUTH."
+        contribution: "The website is built using React, Express, Tailwind CSS, and MongoDB. External services used are RapidAPI, Facebook and Google OAUTH.",
+        "link": "https://intentionalgram-9a6b6ee7d780.herokuapp.com/"
     },
     {
         title: "This Website",
@@ -125,11 +127,11 @@ const PersonalProjectDetails = [
         contribution: "The website is built with React Js Framework and Tailwind CSS."
     },
     
-    {
-        title: "Web Scraping",
-        description: "My First ever attemp of coding project outside of school during my Term 2 in university.",
-        contribution: "I used a Python library called Beautiful Soup to scrap list of software engineer jobs hiring into a csv file."
-    },
+    // {
+    //     title: "Web Scraping",
+    //     description: "My First ever attemp of coding project outside of school during my Term 2 in university.",
+    //     contribution: "I used a Python library called Beautiful Soup to scrap list of software engineer jobs hiring into a csv file."
+    // },
 
 
 

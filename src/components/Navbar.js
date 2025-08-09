@@ -19,10 +19,10 @@ export default function Navbar() {
         name:"Photography",
         linkref:"/photography",
       },
-      // {
-      //   name:"Venture Capital",
-      //   linkref:"/ventureCapital",
-      // },
+      {
+        name:"Venture Capital",
+        linkref:"/ventureCapital",
+      },
       {
         name:"Leadership",
         linkref:"/leadership",

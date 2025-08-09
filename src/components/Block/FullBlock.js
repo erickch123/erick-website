@@ -18,12 +18,13 @@ export default function FullBlock(props) {
             </div>
             <div className=" lg:ml-20 flex-col mx-5 ">
                 {detailsName.map((project) => {
-                    const { title, description, contribution } = project;
+                    const { title, description, contribution,link} = project;
                     return (
                         <BlockCodingContent
                             title={title}
                             description={description}
                             contribution={contribution}
+                            link={link}
                         />
                     )
                 })

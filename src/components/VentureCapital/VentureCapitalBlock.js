@@ -20,9 +20,9 @@ export default function VentureCapitalBlock() {
 }
 const MyThoughtsDetails = [
     {
-        title: "No Experience and a Minority, then What?",
-        description: "We always hear that VCs are from Finance backgrounds, ex-consultants, ex-bankers, ex-Founders, and interestingly I am not all. I am a university student studying computer science who also focuses one becoming a software engineer. However, I am also very interested to be involved in VC space due to my reading habits during free-time, which is explained in the below section. More importantly, I can show potential recruiter my commitment and the extra step I have taken through creating a portfolio.",
-        contribution: "Getting into VC is also known as a connection game and people often stereotype computer science students as unfavourable. However, as an outgoing person, I have managed to make ample connections from various industries, including three VC analyst interns and one Partner in VC. Consciously, I know it is far than enough for me to get into VC, therefore I would be glad to make more connections and hope to intrigue VCs who are looking at my website."
+        title: "Combining Tech and Venture Capital",
+        description: "As someone with computer science background and working in tech, I've always been fascinated by the intersection of technology and investment thinking. While developing my coding skills in software engineering, data engineering, and AI, I am also interesting in learning  how investors evaluate tech innovations. Even during university, I pursued VC-related training as a side quest. Although coding remained my primary focus, I wanted to maximise my knowledge in the VC space.",
+        contribution: "Now, as I've matured professionally and begun accumulating wealth through my tech career, I'm increasingly drawn to participating in the venture capital space. My technical background gives me unique insights into evaluating startups, while my investor mindset helps me identify promising ideas and learn from other entrepreneurs."
     },
 ]
 const VentureCapitalDetails = [
@@ -32,9 +32,15 @@ const VentureCapitalDetails = [
         contribution: " Throughout the program I chose Fintech Industry and FOMOpay, JiPay, and iPiD. Eventually, I chose FOMOpay as the top priority for the investment portfolio. I have conducted due diligence, investment memo, market analysis, customer analysis, dealflow action plan, and PitchDeck reviews. If you are a VC and interested to see, kindly contact me via Linkedin/Email!"
     },
     {
+        title: "Protege Venture Academy",
+        description: "Earned a position at Protege Venture, a student-run program, through a multi-stage selection process designed to nurture venture capital talent in university. Successfully completed the 2-month program phase, acquiring knowledge in VC industry practices, due diligence frameworks, and investment memo preparation. Key accomplishments included developing a pitch deck presentation for Datature and establishing valuable industry connections. Did not continue with the subsequent 1-year analyst program.",
+        contribution: ""
+    },
+    {
         title: "My Personal Startup Notes",
-        description: "Collated information of 189 startups(as of October 2022) since my last year of High School whose I personally interested from daily reading/podcast about startup, technology, and leadership from Techcrunch, e27, TechInAsia, DailySocial, VulcanPost, MorningBrew, BFM, MyFirstMillion. In this case, I am interested with their ideas and not focusing on their business model,scalability, or profitability. They are located in Indonesia, Singapore, US, other Southeast Asia Countries, and Sweden. If you are a VC and interested to see, kindly contact me via Linkedin/Email!",
-        contribution: "Recently, I have stopped listening to podcast due to other priorities, so I am only up to date with Startup news sources"
+        description: "Collated information of 300 startups(as of Aug 2025) since my last year of High School whose I personally interested from daily reading/podcast about startup, technology, and leadership from Techcrunch, e27, TechInAsia, DailySocial, VulcanPost, MorningBrew, BFM, MyFirstMillion. In this case, I am interested with their ideas and not focusing on their business model,scalability, or profitability. They are located in Indonesia, Singapore, US, other Southeast Asia Countries, and Sweden. It's a spreadsheet that people can just see",
+        contribution: "",
+        link: "https://docs.google.com/spreadsheets/d/1cJd9A_k8HBuU88sv77a89Vvo-lmbfY0xJzJ8caMQYa0/edit?usp=sharing"
     },
 ]
 

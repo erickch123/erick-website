@@ -5,7 +5,7 @@ import img3 from '../../images/Sustainability/nutrisoyCarbox.jpg';
 import img4 from '../../images/Sustainability/Savour.jpeg';
 import img5 from '../../images/Sustainability/YEDPictures.jpeg';
 import img6 from '../../images/Sustainability/CADTrustSFF.jpg';
-import img7 from '../../images/Sustainability/SampleImageForCoffeeCarbon.jpeg';
+// import img7 from 'https://storage.googleapis.com/erc-photos/coffee/FarmVisit/tuangVisitMay2025.jpg';
 import SustainabilityItem from './SustainabilityItem';
 
 const items = [
@@ -35,14 +35,14 @@ const items = [
         image: img5
     },
     {
-        title: "Interning at Climate Action Data Trust",
+        title: "Working at Climate Action Data Trust",
         description: "This role allowed me to combine my technical skills in development and blockchain with the carbon market, giving me the opportunity to contribute on a larger scale of environmental and sustainability beyond personal actions.",
         image: img6
     },
     {
         title: "Helping Indonesia Coffee Farmers Create Carbon Credit Project",
-        description: "Currently working on a pilot project (still under proposal and ideation stage!) to help coffee farmers in Indonesia create a carbon credit initiative. This is a cause I’m deeply passionate about—more updates to come!",
-        image: img7
+        description: "Currently working on a pilot project (still under proof of concept stage!) to help coffee farmers in Indonesia create a carbon credit initiative. This is a cause I’m deeply passionate about. More updates to come and you can find the detail here http://indocoffee-carbon-credit.vercel.app/!",
+        image: "https://storage.googleapis.com/erc-photos/coffee/FarmVisit/tuangVisitMay2025.jpg"
     }
 ];
 
